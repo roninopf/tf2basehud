@@ -1,0 +1,26 @@
+"carrier"
+{
+	"ctf_2fort"
+	{
+		"location"		"-3609.09 508.769 52.6112"
+		"rotation"		"0 266 0"
+	}
+
+	"pl_badwater"
+	{
+		"location"		"-6012.43 10035.8 -2414.11"
+		"rotation"		"-2.02016 258.776 6.37398"
+	}
+	
+	"ctf_doublecross"
+	{
+		"location"		"8826.89 124.393 33.3473"
+		"rotation"		"-11.5169 246.459 -5.46215"
+	}
+	
+	"cp_granary"
+	{
+		"location"		"-9467.61 3629.94 -5.91296"
+		"rotation"		"-1.89876 100.837 9.81988"
+	}
+}
