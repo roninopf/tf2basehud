@@ -1315,6 +1315,7 @@
 	}
 	"player_turned_to_ghost"
 	{
+		"userid"	"short"		// user ID of the player who changed to a ghost
 	}
 }
 

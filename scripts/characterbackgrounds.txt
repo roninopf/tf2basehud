@@ -348,4 +348,67 @@
 		"store_text"		"#TF_Trial_MainMenu_Upsell_Spy"
 		"holiday_restriction"	"halloween_or_fullmoon"
 	}
+	"hwn13_demoman"
+	{
+		"image"	"../console/characters/hwn13_demoman"
+		"item_url"	"demoman"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Demoman"
+		"holiday_restriction"	"halloween_or_fullmoon"
+	}
+	"hwn13_engineer"
+	{
+		"image"	"../console/characters/hwn13_engineer"
+		"item_url"	"engineer"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Engineer"
+		"holiday_restriction"	"halloween_or_fullmoon"
+	}
+	"hwn13_heavy"
+	{
+		"image"	"../console/characters/hwn13_heavy"
+		"item_url"	"heavy"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Heavy"
+		"holiday_restriction"	"halloween_or_fullmoon"
+	}
+	"hwn13_medic"
+	{
+		"image"	"../console/characters/hwn13_medic"
+		"item_url"	"medic"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Medic"
+		"holiday_restriction"	"halloween_or_fullmoon"
+	}
+	"hwn13_pyro"
+	{
+		"image"	"../console/characters/hwn13_pyro"
+		"item_url"	"pyro"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Pyro"
+		"holiday_restriction"	"halloween_or_fullmoon"
+	}
+	"hwn13_scout"
+	{
+		"image"	"../console/characters/hwn13_scout"
+		"item_url"	"scout"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Scout"
+		"holiday_restriction"	"halloween_or_fullmoon"
+	}
+	"hwn13_sniper"
+	{
+		"image"	"../console/characters/hwn13_sniper"
+		"item_url"	"sniper"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Sniper"
+		"holiday_restriction"	"halloween_or_fullmoon"
+	}
+	"hwn13_soldier"
+	{
+		"image"	"../console/characters/hwn13_soldier"
+		"item_url"	"soldier"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Soldier"
+		"holiday_restriction"	"halloween_or_fullmoon"
+	}
+	"hwn13_spy"
+	{
+		"image"	"../console/characters/hwn13_spy"
+		"item_url"	"spy"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Spy"
+		"holiday_restriction"	"halloween_or_fullmoon"
+	}
 }

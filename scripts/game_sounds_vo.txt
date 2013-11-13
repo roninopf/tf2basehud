@@ -35131,6 +35131,45 @@
 		"wave"	"vo/halloween_merasmus/sf12_wheel_invincible11.wav"
 	}
 }
+
+
+"Halloween.MerasmusHalloweenModeCommon"
+{
+	"channel"	"CHAN_VOICE2"
+	"volume"	"VOL_NORM"
+	"pitch"	"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"rndwave"
+	{
+		"wave"	"vo/halloween_merasmus/sf13_merasmus_eternaween01.wav"
+		"wave"	"vo/halloween_merasmus/sf13_merasmus_eternaween02.wav"
+		"wave"	"vo/halloween_merasmus/sf13_merasmus_eternaween03.wav"
+		"wave"	"vo/halloween_merasmus/sf13_merasmus_eternaween04.wav"
+		"wave"	"vo/halloween_merasmus/sf13_merasmus_eternaween07.wav"
+		"wave"	"vo/halloween_merasmus/sf13_merasmus_eternaween09.wav"
+		"wave"	"vo/halloween_merasmus/sf13_merasmus_eternaween10.wav"
+		"wave"	"vo/halloween_merasmus/sf13_merasmus_eternaween11.wav"
+		"wave"	"vo/halloween_merasmus/sf13_merasmus_eternaween12.wav"
+		"wave"	"vo/halloween_merasmus/sf13_merasmus_eternaween13.wav"
+	}
+}
+
+
+"Halloween.MerasmusHalloweenModeRare"
+{
+	"channel"	"CHAN_VOICE2"
+	"volume"	"VOL_NORM"
+	"pitch"	"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"rndwave"
+	{
+		"wave"	"vo/halloween_merasmus/sf13_merasmus_eternaween05.wav"
+		"wave"	"vo/halloween_merasmus/sf13_merasmus_eternaween06.wav"
+		"wave"	"vo/halloween_merasmus/sf13_merasmus_eternaween08.wav"
+	}
+}
+
+
 //-----------------------------------------------------------------------------------------------
 //END OF Merasmus VO
 //-----------------------------------------------------------------------------------------------
