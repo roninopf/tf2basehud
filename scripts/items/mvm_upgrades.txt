@@ -174,14 +174,14 @@
 			"cap"		"0.4"
 			"cost"		"250"
 		}
-		"14"
-		{
-			"attribute"	"heal rate bonus"
-			"icon"		"achievements/tf_heavy_heal_medikits"
-			"increment"	"0.25"
-			"cap"		"2.0"
-			"cost"		"250"
-		}
+// 		"14"
+// 		{
+// 			"attribute"	"heal rate bonus"
+// 			"icon"		"achievements/tf_heavy_heal_medikits"
+// 			"increment"	"0.25"
+// 			"cap"		"2.0"
+// 			"cost"		"250"
+// 		}
 		"15"
 		{
 			"attribute"	"ubercharge rate bonus"
@@ -253,22 +253,6 @@
 			"icon"		"achievements/tf_demoman_charge_kill"
 			"increment"	"1.0"
 			"cap"		"5.0"
-			"cost"		"150"
-		}
-		"22"
-		{
-			"attribute"	"overheal bonus"
-			"icon"		"achievements/tf_scout_assist_medic"
-			"increment"	"0.25"
-			"cap"		"2.0"
-			"cost"		"200"
-		}
-		"23"
-		{
-			"attribute"	"overheal decay bonus"
-			"icon"		"achievements/tf_medic_save_falling_teammate"
-			"increment"	"0.5"
-			"cap"		"2.0"
 			"cost"		"150"
 		}
 		"24"
@@ -358,8 +342,8 @@
 			"attribute"	"attack projectiles"
 			"icon"		"achievements/tf_soldier_kill_sniper_while_dead"
 			"increment"	"1"
-			"cap"		"1"
-			"cost"		"600"
+			"cap"		"2"
+			"cost"		"400"
 		}
 		"36"
 		{
@@ -385,14 +369,6 @@
 			"cap"		"100"
 			"cost"		"400"	
 		}
-		"39"
-		{
-			"attribute"	"share consumable with patient"
-			"icon"		"achievements/tf_medic_charge_blocker"
-			"increment"	"1"				// percent
-			"cap"		"1"				// percent
-			"cost"		"350"			// first tier points/credits cost
-		}
 		"40"
 		{
 			"attribute"	"mark for death"
@@ -408,6 +384,62 @@
 			"increment"	"2"
 			"cap"		"8.0"
 			"cost"		"400"
+		}
+		"43"
+		{
+			"attribute"	"canteen specialist"
+			"icon"		"achievements/tf_medic_charge_blocker"
+			"increment"	"1"
+			"cap"		"3"
+			"cost"		"200"
+		}
+		"44"
+		{
+			"attribute"	"overheal expert"
+			"icon"		"achievements/tf_scout_assist_medic"
+			"increment"	"1"
+			"cap"		"4"
+			"cost"		"250"
+		}
+		"46"
+		{
+			"attribute"	"mad milk syringes"
+			"icon"		"achievements/tf_scout_assist_medic"
+			"increment"	"1"
+			"cap"		"1"
+			"cost"		"200"
+		}
+		"47"
+		{
+			"attribute"	"rocket specialist"
+			"icon"		"achievements/tf_soldier_kill_airborne_target_while_airborne"
+			"increment"	"1"
+			"cap"		"4"
+			"cost"		"300"
+		}
+		"48"
+		{
+			"attribute"	"healing mastery"
+			"icon"		"achievements/tf_heavy_heal_medikits"
+			"increment"	"1"
+			"cap"		"4"
+			"cost"		"250"
+		}
+		"49"
+		{
+			"attribute"	"generate rage on heal"	// Projectile Shield
+			"icon"		"achievements/tf_demoman_kill_x_defending"
+			"increment"	"1"
+			"cap"		"2"
+			"cost"		"300"
+		}
+		"50"
+		{
+			"attribute"	"damage force reduction"
+			"icon"		"achievements/tf_soldier_shoot_mult_crits"
+			"increment"	"-0.3"
+			"cap"		"0.1"
+			"cost"		"100"
 		}
 	}
 	
@@ -429,7 +461,7 @@
 			"icon"		"achievements/tf_demoman_kill_x_heavies_fullhp_onedet"
 			"increment"	"-0.25"
 			"cap"		"0.25"
-			"cost"		"350"
+			"cost"		"300"
 		}
 		"3"
 		{
@@ -437,7 +469,7 @@
 			"icon"		"mvm/upgradeicons/upgrade_resistance_bullet"
 			"increment"	"-0.25"
 			"cap"		"0.25"
-			"cost"		"350"
+			"cost"		"300"
 		}
 		"4"
 		{

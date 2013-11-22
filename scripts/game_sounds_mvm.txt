@@ -1719,6 +1719,16 @@
 	"wave"			"misc/null.wav"
 }
 
+"MVM.PlayerRevived"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_90dB"
+
+	"wave"			"mvm\mvm_revive.wav"
+}
+
 // ------------------------------------------------------------------------------------ //
 // MVM Engineer and Teleporter
 // ------------------------------------------------------------------------------------ //
@@ -1739,4 +1749,87 @@
 	"pitch"			"100"
 	"soundlevel"  	"SNDLVL_150dB"
 	"wave"			")mvm/mvm_tele_deliver.wav"
+}
+
+// Level Specific
+
+"grinder_loop"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.8"
+	"soundlevel"  	"SNDLVL_70dB"
+	"pitch"			"PITCH_NORM"
+	"wave"		")ambient/grinder/grinderloop_01.wav"
+}
+
+"grinder_human"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_105dB"
+	"pitch"			"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"	")ambient/grinder/grinderhuman_01.wav"
+		"wave"	")ambient/grinder/grinderhuman_02.wav"
+	}
+}
+
+"grinder_bot"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.5"
+	"soundlevel"  	"SNDLVL_105dB"
+	"pitch"			"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"	")ambient/grinder/grinderbot_01.wav"
+		"wave"	")ambient/grinder/grinderbot_02.wav"
+		"wave"	")ambient/grinder/grinderbot_03.wav"
+	}
+}
+
+// ------------------------------------------------------------------------------------ //
+// MVM klaxon
+// ------------------------------------------------------------------------------------ //
+
+
+"mvm.cpoint_alarm"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"	"1.0"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"		"PITCH_NORM"
+	
+	"wave"		"mvm\mvm_cpoint_klaxon.wav"
+}
+
+
+// ------------------------------------------------------------------------------------ //
+// MVM robotstun
+// ------------------------------------------------------------------------------------ //
+
+
+"mvm.robo_stun_lp"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"	"1.0"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"		"PITCH_NORM"
+
+	"wave"	")mvm\mvm_robo_stun.wav"
+
+
+}
+
+// ------------------------------------------------------------------------------------ //
+// MVM upgrade refund
+// ------------------------------------------------------------------------------------ //
+"MVM.RespecAwarded"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_105dB"
+	"wave"			")mvm/mvm_tank_horn.wav"
 }

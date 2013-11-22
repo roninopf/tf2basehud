@@ -1561,6 +1561,7 @@
 			"width"		"128"
 			"height"	"128"
 		}
+
 	
 		"obj_status_tele_entrance"
 		{
@@ -1793,6 +1794,25 @@
 		"leaderboard_dominated"
 		{
 			"file"		"hud/leaderboard_dominated"
+			"x"		"0"
+			"y"		"0"
+			"width"		"64"
+			"height"	"64"
+		}	
+		
+		"leaderboard_streak"
+		{
+			"file"		"hud/leaderboard_streak"
+			"negfile"	"HUD/dneg_leaderboard_streak"
+			"x"		"0"
+			"y"		"0"
+			"width"		"64"
+			"height"	"64"
+		}	
+		
+		"leaderboard_streak_dneg"
+		{
+			"file"		"hud/dneg_leaderboard_streak"
 			"x"		"0"
 			"y"		"0"
 			"width"		"64"
@@ -2955,6 +2975,24 @@
 				"dnegfile"	"HUD/dneg_images_v3"
 				"x"		"192"
 				"y"		"480"
+				"width"		"64"
+				"height"	"32"
+		}
+		"golden_fryingpan"
+		{
+				"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
+				"x"		"96"
+				"y"		"0"
+				"width"		"96"
+				"height"	"32"
+		}
+		"australium"
+		{
+				"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
+				"x"		"192"
+				"y"		"512"
 				"width"		"64"
 				"height"	"32"
 		}

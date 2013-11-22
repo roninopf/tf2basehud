@@ -609,6 +609,15 @@ criterion "ConceptMvMWaveWin" "Concept" "TLK_MVM_WAVE_WIN" required
 criterion "ConceptMvMWaveLose" "Concept" "TLK_MVM_WAVE_LOSE" required 
 criterion "ConceptMvMDeployRage" "Concept" "TLK_MVM_DEPLOY_RAGE" required 
 
+//A Tale of Two Cities Update
+criterion "ConceptMannhattanGateAttack" "Concept" "TLK_MANNHATTAN_GATE_ATK" required
+criterion "ConceptMannhattanGateTake" "Concept" "TLK_MANNHATTAN_GATE_TAKE" required
+criterion "ConceptMvMResurrected" "Concept" "TLK_RESURRECTED" required
+criterion "ConceptMvMMedicShield" "Concept" "TLK_MEDIC_HEAL_SHIELD" required
+criterion "ConceptMvMLootCommon" "Concept" "TLK_MVM_LOOT_COMMON" required
+criterion "ConceptMvMLootRare" "Concept" "TLK_MVM_LOOT_RARE" required
+criterion "ConceptMvMLootUltraRare" "Concept" "TLK_MVM_LOOT_ULTRARARE" required
+
 // Halloween 2013
 criterion "ConceptPlayerCastFireball" "Concept" "TLK_PLAYER_CAST_FIREBALL" required 
 criterion "ConceptPlayerCastMerasmusZap" "Concept" "TLK_PLAYER_CAST_MERASMUS_ZAP" required  

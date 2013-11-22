@@ -6402,6 +6402,65 @@
 	"wave"			"weapons/loose_cannon_ball_impact.wav"
 }
 
+// ------------------------------------------------------------------------------------ //
+// MEDI_SHIELD
+// ------------------------------------------------------------------------------------ //
+"WeaponMedi_Shield.Protection"
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_74dB"
+	"volume"	"0.700000"
+	"wave"		")weapons\vaccinator_heal.wav"
+}
+
+"WeaponMedi_Shield.Deploy"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"0.700000"
+	"soundlevel"	"SNDLVL_95dB"
+	"wave"		")weapons\medi_shield_deploy.wav"
+}
+
+"WeaponMedi_Shield.Retract"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"0.700000"
+	"soundlevel"	"SNDLVL_95dB"
+	"wave"		")weapons\medi_shield_retract.wav"
+}
+
+"WeaponMedi_Shield.Burn"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.490000"
+	"soundlevel"  	"SNDLVL_81dB"
+	"pitch"		"90, 100"
+
+	"rndwave"
+	{
+		"wave"	"weapons\medi_shield_burn_01.wav"
+		"wave"	"weapons\medi_shield_burn_02.wav"
+		"wave"	"weapons\medi_shield_burn_03.wav"
+		"wave"	"weapons\medi_shield_burn_04.wav"
+		"wave"	"weapons\medi_shield_burn_05.wav"
+		"wave"	"weapons\medi_shield_burn_06.wav"
+		"wave"	"weapons\medi_shield_burn_07.wav"
+		"wave"	"weapons\medi_shield_burn_08.wav"
+		"wave"	"weapons\medi_shield_burn_09.wav"
+		"wave"	"weapons\medi_shield_burn_10.wav"
+		"wave"	"weapons\medi_shield_burn_11.wav"
+	}
+}
+
+"WeaponMedi_Shield.Burn_lp"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.700000"
+	"soundlevel"  	"SNDLVL_94dB"
+	"pitch"			"PITCH_NORM"
+
+	"wave"	")weapons\medi_burn_lp.wav"
+}
 // Channels
 //	CHAN_AUTO		= 0,
 //	CHAN_WEAPON		= 1,
@@ -6992,6 +7051,14 @@
 	}
 }
 
+"TFPlayer.DoubleDonk"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.700000"
+	"soundlevel"  	"SNDLVL_85dB"
+	"wave"		")player\doubledonk.wav"
+}
+
 "TFPlayer.FreezeCam"
 {
 	"channel"	"CHAN_STATIC"
@@ -7297,7 +7364,7 @@
 "Taunt.GuitarRiff"
 {
 	"channel"	"CHAN_STATIC"
-	"volume"	"1"
+	"volume"	"0.700000"
 	"soundlevel"  "SNDLVL_95dB"
 
 	"wave"		")player\brutal_legend_taunt.wav"
@@ -8386,7 +8453,7 @@
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_85dB"
-	"volume"		"0.8"
+	"volume"	"0.560000"
 	"wave"			"misc/grenade_jump_lp_01.wav"
 }
 
@@ -8574,7 +8641,8 @@
 	"volume"	"0.140000"
 	"pitch"			"PITCH_NORM"
 	"wave"			"misc/halloween/hwn_bomb_flash.wav"
-}// Channels
+}
+// Channels
 //	CHAN_AUTO		= 0,
 //	CHAN_WEAPON		= 1,
 //	CHAN_VOICE		= 2,
@@ -14826,3 +14894,145 @@
 		"wave"	"ambient/metrotrain_passby_02.wav"
 	}
 }
+
+"General.banana_slip" 
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.700000"
+	"pitch"		"100"
+	"soundlevel"  	"SNDLVL_85dB"
+	"wave"	")misc/banana_slip.wav"
+
+}
+
+
+// Rottenburg map - Large metal door sounds
+
+"Hugedoor.openstart"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"	"0.700000"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_140dB"
+	"wave"			")ambient/rottenburg/tunneldoor_open.wav"
+}
+
+"Hugedoor.opencomplete"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"	"0.560000"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_100dB"
+	"wave"			")ambient/rottenburg/tunneldoor_open_complete.wav"
+}
+
+"Hugedoor.closedloud"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"	"0.700000"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_140dB"
+	"wave"			")ambient/rottenburg/tunneldoor_closed_loud.wav"
+}
+
+"Hugedoor.closedsoft"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"	"0.560000"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_100dB"
+	"wave"			")ambient/rottenburg/tunneldoor_closed_quiet.wav"
+}
+
+// Rottenburg map - Portcullis over upgrades shop
+
+"Portcullis.down_start"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"	"0.490000"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_85dB"
+	"wave"			")ambient/rottenburg/portcullis_down.wav"
+}
+
+"Portcullis.down_slam"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"	"0.560000"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_85dB"
+	"wave"			")ambient/rottenburg/portcullis_slam.wav"
+}
+
+"Portcullis.up_start"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"	"0.560000"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_85dB"
+	"wave"			")ambient/rottenburg/portcullis_up.wav"
+}
+
+// Rottenburg map - Bomb carrier pushed into pit under bell tower
+
+"Belltower.Ring"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"	"0.700000"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_NONE"
+	"wave"			")ambient/rottenburg/rottenburg_belltower.wav"
+}
+
+// Rottenburg map - Palisade barrier smash
+
+"MVM.BarrierSmash"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"	"0.700000"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_NONE"
+	"wave"			")ambient/rottenburg/barrier_smash.wav"
+}
+
+// New item drop crates
+
+"ui.cratesmash_common"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"	"0.490000"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/itemcrate_smash_common.wav"
+}
+
+
+"ui.cratesmash_rare"
+
+{
+	"channel"		"CHAN_STATIC"
+	"volume"	"0.560000"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/itemcrate_smash_rare.wav"
+}
+
+"ui.cratesmash_ultrarare_short"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"	"0.700000"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/itemcrate_smash_ultrarare_short.wav"
+}
+
+"ui.cratesmash_ultrarare_long"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"	"0.700000"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/itemcrate_smash_ultrarare.wav"
+}
+
+

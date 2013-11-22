@@ -718,6 +718,14 @@
  	"soundlevel"   "SNDLVL_NORM"
 	"wave"  "#misc/tf_nemesis.wav"
 }
+"Game.KillStreak"
+{
+ 	"channel"  "CHAN_STATIC"
+ 	"volume"  ".65"
+ 	"pitch"  "100"
+ 	"soundlevel"   "SNDLVL_NORM"
+	"wave"  "#misc/killstreak.wav"
+}
 
 "Game.PenetrationKill"
 {
@@ -2006,6 +2014,169 @@
 	"soundlevel"  	"SNDLVL_140dB"
 	"pitch"			"PITCH_NORM"
 	"wave"			")misc/halloween/spell_teleport.wav"
+}
+
+
+// Misc
+
+"Ambient.metrotrain_passby"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1"
+	"pitch"		"100"
+	"soundlevel"  	"SNDLVL_85dB"
+	"rndwave"
+	{
+		"wave"	"ambient/metrotrain_passby_01.wav"
+		"wave"	"ambient/metrotrain_passby_02.wav"
+	}
+}
+
+"General.banana_slip" 
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1"
+	"pitch"		"100"
+	"soundlevel"  	"SNDLVL_85dB"
+	"wave"	")misc/banana_slip.wav"
+
+}
+
+
+// Rottenburg map - Large metal door sounds
+
+"Hugedoor.openstart"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_140dB"
+	"wave"			")ambient/rottenburg/tunneldoor_open.wav"
+}
+
+"Hugedoor.opencomplete"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.8"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_100dB"
+	"wave"			")ambient/rottenburg/tunneldoor_open_complete.wav"
+}
+
+"Hugedoor.closedloud"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_140dB"
+	"wave"			")ambient/rottenburg/tunneldoor_closed_loud.wav"
+}
+
+"Hugedoor.closedsoft"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.8"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_100dB"
+	"wave"			")ambient/rottenburg/tunneldoor_closed_quiet.wav"
+}
+
+// Rottenburg map - Portcullis over upgrades shop
+
+"Portcullis.down_start"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.7"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_85dB"
+	"wave"			")ambient/rottenburg/portcullis_down.wav"
+}
+
+"Portcullis.down_slam"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.8"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_85dB"
+	"wave"			")ambient/rottenburg/portcullis_slam.wav"
+}
+
+"Portcullis.up_start"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.8"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_85dB"
+	"wave"			")ambient/rottenburg/portcullis_up.wav"
+}
+
+// Rottenburg map - Bomb carrier pushed into pit under bell tower
+
+"Belltower.Ring"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_NONE"
+	"wave"			")ambient/rottenburg/rottenburg_belltower.wav"
+}
+
+// Rottenburg map - Palisade barrier smash
+
+"MVM.BarrierSmash"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_NONE"
+	"wave"			")ambient/rottenburg/barrier_smash.wav"
+}
+
+// New item drop crates
+
+"ui.cratesmash_common"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.7"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/itemcrate_smash_common.wav"
+}
+
+"ui.cratesmash_rare_long"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.8"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/itemcrate_smash_mid.wav"
+}
+
+"ui.cratesmash_ultrarare_short"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/itemcrate_smash_ultrarare_short.wav"
+}
+
+"ui.cratesmash_ultrarare_long"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/itemcrate_smash_ultrarare.wav"
+}
+
+"ui.cratesmash_ultrarare_long_fireworks"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/itemcrate_smash_ultrarare_fireworks.wav"
 }
 
 

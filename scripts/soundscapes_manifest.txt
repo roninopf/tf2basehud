@@ -37,4 +37,6 @@
 		"file"		"scripts/soundscapes_mannworks.txt"
 		"file"		"scripts/soundscapes_cactusvalley.txt"
 		"file"		"scripts/soundscapes_soho.txt"
+		"file"		"scripts/soundscapes_warehouse.txt"
+		"file"		"scripts/soundscapes_rottenburg.txt"
 }	

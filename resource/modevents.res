@@ -76,6 +76,11 @@
 		"silent_kill"	"bool"
 		"playerpenetratecount"	"short"
 		"assister_fallback"	"string"	// contains a string to use if "assister" is -1
+		"kill_streak_total" 	"short"	// Kill streak count (level)
+		"kill_streak_wep" 	"short"	// Kill streak for killing weapon
+		"kill_streak_assist" "short"	// Kill streak for assister count
+		"kill_streak_victim" "short"	// Victims kill streak
+		"rocket_jump"		"bool"		// was the victim rocket jumping
 		
 	//	"dominated"	"short"		// did killer dominate victim with this kill
 	//	"assister_dominated" "short"	// did assister dominate victim with this kill
@@ -355,6 +360,8 @@
 		"player_2_points"	"short"
 		"player_3"		"short"
 		"player_3_points"	"short"
+		"killstreak_player_1"		"short"
+		"killstreak_player_1_count"	"short"
 	}
 	"teamplay_teambalanced_player"
 	{
@@ -1280,6 +1287,7 @@
 	
 	"mvm_wave_complete"
 	{
+		"advanced"		"bool"		// is this an advanced popfile
 	}
 
 	"mvm_mission_complete"
@@ -1313,11 +1321,65 @@
 	{
 		"entindex"		"byte"
 	}
+
+	"revive_player_notify"
+	{
+		"entindex"			"short"
+		"marker_entindex"	"short"
+	}
+
+	"revive_player_stopped"
+	{
+		"entindex"	"short"
+	}
+
+	"revive_player_complete"
+	{
+		"entindex"			"short"		// entindex of the medic
+	}
+
 	"player_turned_to_ghost"
 	{
 		"userid"	"short"		// user ID of the player who changed to a ghost
 	}
+
+	"medigun_shield_blocked_damage"
+	{
+		"userid"	"short"		// user ID of the player using the shield
+		"damage"	"float"		// damage that was blocked
+	}
+
+	"mvm_adv_wave_complete_no_gates"
+	{
+		"index"		"short"		// wave index
+	}
+
+	"mvm_sniper_headshot_currency"
+	{
+		"userid"	"short"		// user ID of the player 
+		"currency"	"short"		// currency collected
+	}
+
+	"mvm_mannhattan_pit"
+	{
+	}
+
+	"flag_carried_in_detection_zone"
+	{
+	}
+
+	"mvm_adv_wave_killed_stun_radio"
+	{
+	}
+
+	"player_directhit_stun"
+	{
+		"attacker"	"short"		// entindex of the attacker
+		"victim"	"short"		// entindex of the victim
+	}
+
+	"mvm_sentrybuster_killed"
+	{
+		"sentry_buster"	"short"	// entindex
+	}
 }
-
-
-

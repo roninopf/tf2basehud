@@ -128,84 +128,84 @@
 	}
 }
 
-// "Engineer.MVM_Death"
-// {
-	// "channel"		"CHAN_VOICE"
-	// "volume"		"VOL_NORM"
-	// "pitch"			"PITCH_NORM"
+"Engineer.MVM_Death"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
 
-	// "soundlevel"	"SNDLVL_95dB"
+	"soundlevel"	"SNDLVL_95dB"
 
-	// "rndwave"			
-	// {
-		// "wave"		"vo/mvm/norm/engineer_mvm_PainSevere01.mp3"
-		// "wave"		"vo/mvm/norm/engineer_mvm_PainSevere02.mp3"
-		// "wave"		"vo/mvm/norm/engineer_mvm_PainSevere03.mp3"
-		// "wave"		"vo/mvm/norm/engineer_mvm_PainSevere04.mp3"
-		// "wave"		"vo/mvm/norm/engineer_mvm_PainSevere05.mp3"
-		// "wave"		"vo/mvm/norm/engineer_mvm_PainSevere06.mp3"
-		// "wave"		"vo/mvm/norm/engineer_mvm_PainSevere07.mp3"
-	// }
-// }
+	"rndwave"			
+	{
+		"wave"		"vo/mvm/norm/engineer_mvm_PainSevere01.mp3"
+		"wave"		"vo/mvm/norm/engineer_mvm_PainSevere02.mp3"
+		"wave"		"vo/mvm/norm/engineer_mvm_PainSevere03.mp3"
+		"wave"		"vo/mvm/norm/engineer_mvm_PainSevere04.mp3"
+		"wave"		"vo/mvm/norm/engineer_mvm_PainSevere05.mp3"
+		"wave"		"vo/mvm/norm/engineer_mvm_PainSevere06.mp3"
+		"wave"		"vo/mvm/norm/engineer_mvm_PainSevere07.mp3"
+	}
+}
 
-// "Engineer.MVM_CritDeath"
-// {
-	// "channel"		"CHAN_VOICE"
-	// "volume"		"VOL_NORM"
-	// "pitch"			"PITCH_NORM"
+"Engineer.MVM_CritDeath"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
 
-	// "soundlevel"	"SNDLVL_95dB"
+	"soundlevel"	"SNDLVL_95dB"
 
-	// "rndwave"			
-	// {
-		// "wave"		"vo/mvm/norm/engineer_mvm_PainCrticialDeath01.mp3"
-		// "wave"		"vo/mvm/norm/engineer_mvm_PainCrticialDeath02.mp3"
-		// "wave"		"vo/mvm/norm/engineer_mvm_PainCrticialDeath03.mp3"
-		// "wave"		"vo/mvm/norm/engineer_mvm_PainCrticialDeath04.mp3"
-		// "wave"		"vo/mvm/norm/engineer_mvm_PainCrticialDeath05.mp3"
-		// "wave"		"vo/mvm/norm/engineer_mvm_PainCrticialDeath06.mp3"
-	// }
-// }
+	"rndwave"			
+	{
+		"wave"		"vo/mvm/norm/engineer_mvm_PainCrticialDeath01.mp3"
+		"wave"		"vo/mvm/norm/engineer_mvm_PainCrticialDeath02.mp3"
+		"wave"		"vo/mvm/norm/engineer_mvm_PainCrticialDeath03.mp3"
+		"wave"		"vo/mvm/norm/engineer_mvm_PainCrticialDeath04.mp3"
+		"wave"		"vo/mvm/norm/engineer_mvm_PainCrticialDeath05.mp3"
+		"wave"		"vo/mvm/norm/engineer_mvm_PainCrticialDeath06.mp3"
+	}
+}
 
-// "Engineer.MVM_MeleeDeath"
-// {
-	// "channel"		"CHAN_VOICE"
-	// "volume"		"VOL_NORM"
-	// "pitch"			"PITCH_NORM"
+"Engineer.MVM_MeleeDeath"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
 
-	// "soundlevel"	"SNDLVL_95dB"
+	"soundlevel"	"SNDLVL_95dB"
 
-	// "rndwave"			
-	// {
-		// "wave"		"vo/mvm/norm/engineer_mvm_PainCrticialDeath01.mp3"
-		// "wave"		"vo/mvm/norm/engineer_mvm_PainCrticialDeath02.mp3"
-		// "wave"		"vo/mvm/norm/engineer_mvm_PainCrticialDeath03.mp3"
-		// "wave"		"vo/mvm/norm/engineer_mvm_PainCrticialDeath04.mp3"
-		// "wave"		"vo/mvm/norm/engineer_mvm_PainCrticialDeath05.mp3"
-		// "wave"		"vo/mvm/norm/engineer_mvm_PainCrticialDeath06.mp3"
-	// }
-// }
+	"rndwave"			
+	{
+		"wave"		"vo/mvm/norm/engineer_mvm_PainCrticialDeath01.mp3"
+		"wave"		"vo/mvm/norm/engineer_mvm_PainCrticialDeath02.mp3"
+		"wave"		"vo/mvm/norm/engineer_mvm_PainCrticialDeath03.mp3"
+		"wave"		"vo/mvm/norm/engineer_mvm_PainCrticialDeath04.mp3"
+		"wave"		"vo/mvm/norm/engineer_mvm_PainCrticialDeath05.mp3"
+		"wave"		"vo/mvm/norm/engineer_mvm_PainCrticialDeath06.mp3"
+	}
+}
 
-// "Engineer.MVM_ExplosionDeath"
-// {
-	// "channel"		"CHAN_VOICE"
-	// "volume"		"VOL_NORM"
-	// "pitch"			"PITCH_NORM"
+"Engineer.MVM_ExplosionDeath"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
 
-	// "soundlevel"	"SNDLVL_95dB"
+	"soundlevel"	"SNDLVL_95dB"
 
-	// "rndwave"			
-	// {
-		// "wave"		"vo/mvm/norm/engineer_mvm_PainSharp01.mp3"
-		// "wave"		"vo/mvm/norm/engineer_mvm_PainSharp02.mp3"
-		// "wave"		"vo/mvm/norm/engineer_mvm_PainSharp03.mp3"
-		// "wave"		"vo/mvm/norm/engineer_mvm_PainSharp04.mp3"
-		// "wave"		"vo/mvm/norm/engineer_mvm_PainSharp05.mp3"
-		// "wave"		"vo/mvm/norm/engineer_mvm_PainSharp06.mp3"
-		// "wave"		"vo/mvm/norm/engineer_mvm_PainSharp07.mp3"
-		// "wave"		"vo/mvm/norm/engineer_mvm_PainSharp08.mp3"
-	// }
-// }
+	"rndwave"			
+	{
+		"wave"		"vo/mvm/norm/engineer_mvm_PainSharp01.mp3"
+		"wave"		"vo/mvm/norm/engineer_mvm_PainSharp02.mp3"
+		"wave"		"vo/mvm/norm/engineer_mvm_PainSharp03.mp3"
+		"wave"		"vo/mvm/norm/engineer_mvm_PainSharp04.mp3"
+		"wave"		"vo/mvm/norm/engineer_mvm_PainSharp05.mp3"
+		"wave"		"vo/mvm/norm/engineer_mvm_PainSharp06.mp3"
+		"wave"		"vo/mvm/norm/engineer_mvm_PainSharp07.mp3"
+		"wave"		"vo/mvm/norm/engineer_mvm_PainSharp08.mp3"
+	}
+}
 
 
 

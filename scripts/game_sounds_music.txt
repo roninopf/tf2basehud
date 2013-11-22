@@ -245,3 +245,18 @@
 	"wave"		"#*music/mvm_lost_wave.wav"
 }
 
+"music.fortress_reel"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"1.0"
+	"wave"		"#*music/fortress_reel.wav"
+}
+"music.fortress_reel_loop"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"1.0"
+	"wave"		"#*music/fortress_reel_loop.wav"
+}
+
