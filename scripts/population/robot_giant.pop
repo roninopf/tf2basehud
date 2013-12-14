@@ -560,7 +560,7 @@ WaveSchedule
 				"damage force reduction" 0.7
 				"airblast vulnerability multiplier" 0.7
 				"override footstep sound set" 5
-				"effect bar recharge rate increased" 0.35
+				"effect bar recharge rate increased" 0.55
 			}
 		}
 
@@ -1020,8 +1020,7 @@ WaveSchedule
 				"damage force reduction" 0.4
 				"airblast vulnerability multiplier" 0.4
 				"override footstep sound set" 3
-				"airblast vertical vulnerability multiplier" 0.1
-				"rage giving scale" 0.1
+				"airblast vertical vulnerability multiplier" 0.1			
 				"Projectile speed increased" 0.4
 			}
 		}

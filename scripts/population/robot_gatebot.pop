@@ -1408,7 +1408,7 @@ WaveSchedule
 						"override footstep sound set" 3
 						"airblast vertical vulnerability multiplier" 0.1
 						"rage giving scale" 0.1
-						"Projectile speed increased" 0.4
+						"Projectile speed increased" 0.35
 					}
 				}
 				RevertGateBotsBehavior
@@ -1443,8 +1443,8 @@ WaveSchedule
 						"airblast vulnerability multiplier" 0.4
 						"override footstep sound set" 3
 						"airblast vertical vulnerability multiplier" 0.1
-						"rage giving scale" 0.1
-						"Projectile speed increased" 0.4
+						"rage giving scale" 0.2
+						"Projectile speed increased" 0.35
 					}
 				}
 			}
@@ -1476,7 +1476,7 @@ WaveSchedule
 					{
 						ItemName "TF_WEAPON_ROCKETLAUNCHER"
 						"clip size upgrade atomic" 26.0
-						"faster reload rate" 0.22
+						"faster reload rate" 0.4
 						"fire rate bonus" 0.2
 						"projectile spread angle penalty" 5
 					}
@@ -1488,9 +1488,8 @@ WaveSchedule
 						"damage force reduction" 0.4
 						"airblast vulnerability multiplier" 0.4
 						"override footstep sound set" 3
-						"airblast vertical vulnerability multiplier" 0.1
-						"rage giving scale" 0.1
-						"Projectile speed increased" 0.4
+						"airblast vertical vulnerability multiplier" 0.1				
+						"Projectile speed increased" 0.35
 					}
 				}
 				RevertGateBotsBehavior
@@ -1511,7 +1510,7 @@ WaveSchedule
 					{
 						ItemName "TF_WEAPON_ROCKETLAUNCHER"
 						"clip size upgrade atomic" 26.0
-						"faster reload rate" 0.22
+						"faster reload rate" 0.4
 						"fire rate bonus" 0.2
 						"projectile spread angle penalty" 5
 					}
@@ -1523,9 +1522,8 @@ WaveSchedule
 						"damage force reduction" 0.4
 						"airblast vulnerability multiplier" 0.4
 						"override footstep sound set" 3
-						"airblast vertical vulnerability multiplier" 0.1
-						"rage giving scale" 0.1
-						"Projectile speed increased" 0.4
+						"airblast vertical vulnerability multiplier" 0.1			
+						"Projectile speed increased" 0.35
 					}
 				}
 			}
@@ -1569,7 +1567,6 @@ WaveSchedule
 						"airblast vulnerability multiplier" 0.4
 						"override footstep sound set" 3
 						"airblast vertical vulnerability multiplier" 0.1
-						"rage giving scale" 0.1
 						"Projectile speed increased" 0.4
 					}
 				}
@@ -2003,7 +2000,7 @@ WaveSchedule
 						"damage force reduction" 0.3
 						"airblast vulnerability multiplier" 0.4
 						"airblast vertical vulnerability multiplier" 0.1
-						"rage giving scale"	0.9
+						"rage giving scale"	0.6
 						"override footstep sound set" 2
 					}
 				}
@@ -2036,7 +2033,7 @@ WaveSchedule
 						"damage force reduction" 0.3
 						"airblast vulnerability multiplier" 0.4
 						"airblast vertical vulnerability multiplier" 0.1
-						"rage giving scale"	0.9
+						"rage giving scale"	0.6
 						"override footstep sound set" 2
 					}
 				}

@@ -7,7 +7,7 @@
 
 WaveSchedule
 {
-	StartingCurrency 800
+	StartingCurrency 900
 	CanBotsAttackWhileInSpawnRoom No
 	RespawnWaveTime 8
 	Advanced	1
@@ -91,13 +91,13 @@ WaveSchedule
 	{
 		Objective Sniper
 
-		InitialCooldown 20
+		InitialCooldown 120
 		Where spawnbot_mission_sniper0
 		Where spawnbot_mission_sniper1
 		BeginAtWave 4
 		RunForThisManyWaves 1
-		CooldownTime 25
-		DesiredCount 4
+		CooldownTime 45
+		DesiredCount 2
 
 		TFBot
 		{
@@ -469,10 +469,10 @@ WaveSchedule
 			Where spawnbot_upper0
 			Where spawnbot_main1
 			Where spawnbot_main2
-			TotalCount 10
+			TotalCount 6
 			MaxActive 4
 			SpawnCount 2
-			WaitBetweenSpawns 10
+			WaitBetweenSpawns 12
 			WaitBeforeStarting 10
 			RandomSpawn 1
 
@@ -585,7 +585,7 @@ WaveSchedule
 			Where spawnbot_main0
 			Where spawnbot_main1_slow
 			Where spawnbot_main2 //spawnbot_main2_giants
-			TotalCount 9
+			TotalCount 6
 			MaxActive 3
 			SpawnCount 3
 			WaitBetweenSpawns 20
@@ -620,11 +620,11 @@ WaveSchedule
 			Where spawnbot_main0
 			Where spawnbot_main1
 			Where spawnbot_main2
-			TotalCount 15
+			TotalCount 10
 			MaxActive 10
 			SpawnCount 5
-			WaitBetweenSpawns 14
-			WaitBeforeStarting 10
+			WaitBetweenSpawns 18
+			WaitBeforeStarting 10s
 
 			Squad
 			{
@@ -676,7 +676,7 @@ WaveSchedule
 			}
 		}
 	}
-	// WAVE 03 1000
+	// WAVE 03 1200
 	// 3way path is enabled
 	Wave
 	{
@@ -1005,7 +1005,7 @@ WaveSchedule
 		{
 			WaitForAllDead "w3_giant_heavy_last_push_gate"
 			Name "w5_final_demo_rush"
-			TotalCurrency 100
+			TotalCurrency 300
 			Where spawnbot_upper0
 			Where spawnbot_main1
 			Where spawnbot_main2
@@ -1115,11 +1115,11 @@ WaveSchedule
 			Where spawnbot_main0_squad
 			Where spawnbot_main1
 			Where spawnbot_main2 //spawnbot_main2_giants
-			TotalCount 6
-			MaxActive 6
+			TotalCount 4
+			MaxActive 4
 			SpawnCount 2
-			WaitBetweenSpawns 17
-			WaitBeforeStarting 5
+			WaitBetweenSpawns 33
+			WaitBeforeStarting 10
 
 			Squad
 			{
@@ -1146,14 +1146,14 @@ WaveSchedule
 			TotalCount 10
 			MaxActive 10
 			SpawnCount 1
-			WaitBetweenSpawns 1
-			WaitBeforeStarting 2
+			WaitBetweenSpawns 2
+			WaitBeforeStarting 20
 			RandomSpawn 1
 
 			TFBot
 			{
 				Class Heavyweapons
-				Skill Hard
+				Skill Easy
 			}
 		}
 		WaveSpawn // Samurai demo
@@ -1208,8 +1208,8 @@ WaveSchedule
 			Where spawnbot_main0
 			Where spawnbot_main1
 			Where spawnbot_main2 //spawnbot_main2_giants
-			TotalCount 4
-			MaxActive 2
+			TotalCount 2
+			MaxActive 1
 			SpawnCount 1
 			WaitBetweenSpawns 1
 			WaitBeforeStarting 1
@@ -1229,8 +1229,8 @@ WaveSchedule
 			Where spawnbot_upper0
 			Where spawnbot_main1
 			Where spawnbot_main2 //spawnbot_main2_giants
-			TotalCount 4
-			MaxActive 2
+			TotalCount 2
+			MaxActive 1
 			SpawnCount 1
 			WaitBetweenSpawns 1
 			WaitBeforeStarting 1
@@ -1253,7 +1253,7 @@ WaveSchedule
 			TotalCount 12
 			MaxActive 12
 			SpawnCount 4
-			WaitBetweenSpawns 10
+			WaitBetweenSpawns 15
 			WaitBeforeStarting 0
 			RandomSpawn 1
 
@@ -1285,16 +1285,16 @@ WaveSchedule
 		WaveSpawn // scout giant
 		{
 			TotalCurrency 150
-			WaitForAllSpawned "w4_demoburst_scout_giant"
+			WaitForAllDead "w4_demoburst_scout_giant"
 			Name "w4_final_scout_push"
 			Where spawnbot_main0
 			Where spawnbot_main1
 			Where spawnbot_main2 //spawnbot_main2_giants
-			TotalCount 3
-			MaxActive 3
+			TotalCount 2
+			MaxActive 2
 			SpawnCount 1
-			WaitBetweenSpawns 1
-			WaitBeforeStarting 4
+			WaitBetweenSpawns 10
+			WaitBeforeStarting 0
 			RandomSpawn 1
 
 			TFBot
