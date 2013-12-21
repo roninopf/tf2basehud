@@ -5457,8 +5457,8 @@
 "Weapon_BarretsArm.Shot"
 {
 	"channel"	"CHAN_STATIC"
-	"soundlevel"	"SNDLVL_NORM"
-	"volume"	"0.8"
+	"soundlevel"	"SNDLVL_70dB"
+	"volume"	"0.3"
 	"wave"		")weapons\barret_arm_shot.wav"
 }
 

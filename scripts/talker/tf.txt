@@ -713,6 +713,11 @@
 		criteria ConceptPlayerTaunt IsSoldier WeaponIsDirectHit
 		response SoldierTauntDirectHit
 	}
+	rule SoldierTauntBeggarsBazooka
+	{
+		criteria ConceptPlayerTaunt IsSoldier WeaponIsBeggarsBazooka
+		response SoldierTauntDirectHit
+	}
 	rule SoldierTauntBanner
 	{
 		criteria ConceptPlayerTaunt IsSoldier WeaponIsBanner
