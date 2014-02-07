@@ -1201,3 +1201,90 @@ Rule PlayerPositiveDemoman
 	Response PlayerPositiveDemoman
 	Response PlayerTauntsDemoman
 }
+
+//--------------------------------------------------------------------------------------------------------------
+// Auto Speech Cart
+//--------------------------------------------------------------------------------------------------------------
+Criterion "DemomanNotSaidCartMovingBackwardD" "SaidCartMovingBackwardD" "!=1" "required" weight 0
+Criterion "DemomanNotSaidCartMovingBackwardO" "SaidCartMovingBackwardO" "!=1" "required" weight 0
+Criterion "DemomanNotSaidCartMovingForwardD" "SaidCartMovingForwardD" "!=1" "required" weight 0
+Criterion "DemomanNotSaidCartMovingForwardO" "SaidCartMovingForwardO" "!=1" "required" weight 0
+Criterion "DemomanNotSaidCartMovingStoppedD" "SaidCartMovingStoppedD" "!=1" "required" weight 0
+Criterion "DemomanNotSaidCartMovingStoppedO" "SaidCartMovingStoppedO" "!=1" "required" weight 0
+Response CartMovingBackwardsDefenseDemoman                                                     
+{
+	scene "scenes/Player/Demoman/low/7718.vcd"
+	scene "scenes/Player/Demoman/low/7719.vcd"
+	scene "scenes/Player/Demoman/low/7720.vcd"
+}
+Rule CartMovingBackwardsDefenseDemoman                                                     
+{
+	criteria ConceptCartMovingBackward IsOnDefense IsDemoman DemomanNotSaidCartMovingBackwardD IsNotDisguised 75PercentChance                                                                                                                                                          
+	ApplyContext "SaidCartMovingBackwardD:1:20"
+	Response CartMovingBackwardsDefenseDemoman                                                     
+}
+Response CartMovingBackwardsOffenseDemoman                                                     
+{
+	scene "scenes/Player/Demoman/low/7714.vcd"
+	scene "scenes/Player/Demoman/low/7715.vcd"
+	scene "scenes/Player/Demoman/low/7713.vcd"
+	scene "scenes/Player/Demoman/low/8533.vcd"
+}
+Rule CartMovingBackwardsOffenseDemoman                                                     
+{
+	criteria ConceptCartMovingBackward IsOnOffense IsDemoman DemomanNotSaidCartMovingBackwardO IsNotDisguised 75PercentChance                                                                                                                                                          
+	ApplyContext "SaidCartMovingBackwardO:1:20"
+	Response CartMovingBackwardsOffenseDemoman                                                     
+}
+Response CartMovingForwardDefenseDemoman                                                       
+{
+	scene "scenes/Player/Demoman/low/7716.vcd"
+	scene "scenes/Player/Demoman/low/7717.vcd"
+}
+Rule CartMovingForwardDefenseDemoman                                                       
+{
+	criteria ConceptCartMovingForward IsOnDefense IsDemoman DemomanNotSaidCartMovingForwardD IsNotDisguised 75PercentChance                                                                                                                                                            
+	ApplyContext "SaidCartMovingForwardD:1:20"
+	Response CartMovingForwardDefenseDemoman                                                       
+}
+Response CartMovingForwardOffenseDemoman                                                       
+{
+	scene "scenes/Player/Demoman/low/7704.vcd"
+	scene "scenes/Player/Demoman/low/7705.vcd"
+	scene "scenes/Player/Demoman/low/7706.vcd"
+	scene "scenes/Player/Demoman/low/7707.vcd"
+	scene "scenes/Player/Demoman/low/7711.vcd"
+	scene "scenes/Player/Demoman/low/7721.vcd"
+	scene "scenes/Player/Demoman/low/7723.vcd"
+	scene "scenes/Player/Demoman/low/7724.vcd"
+}
+Rule CartMovingForwardOffenseDemoman                                                       
+{
+	criteria ConceptCartMovingForward IsOnOffense IsDemoman DemomanNotSaidCartMovingForwardO IsNotDisguised 75PercentChance                                                                                                                                                            
+	ApplyContext "SaidCartMovingForwardO:1:20"
+	Response CartMovingForwardOffenseDemoman                                                       
+}
+Response CartMovingStoppedDefenseDemoman                                                       
+{
+}
+Rule CartMovingStoppedDefenseDemoman                                                       
+{
+	criteria ConceptCartMovingStopped IsOnDefense IsDemoman DemomanNotSaidCartMovingStoppedD IsNotDisguised 75PercentChance                                                                                                                                                            
+	ApplyContext "SaidCartMovingStoppedD:1:20"
+	Response CartMovingStoppedDefenseDemoman                                                       
+}
+Response CartMovingStoppedOffenseDemoman                                                       
+{
+	scene "scenes/Player/Demoman/low/7726.vcd"
+	scene "scenes/Player/Demoman/low/7727.vcd"
+	scene "scenes/Player/Demoman/low/7725.vcd"
+}
+Rule CartMovingStoppedOffenseDemoman                                                       
+{
+	criteria ConceptCartMovingStopped IsOnOffense IsDemoman DemomanNotSaidCartMovingStoppedO IsNotDisguised 75PercentChance                                                                                                                                                            
+	ApplyContext "SaidCartMovingStoppedO:1:20"
+	Response CartMovingStoppedOffenseDemoman                                                       
+}
+//--------------------------------------------------------------------------------------------------------------
+// END OF Auto Speech Cart
+//--------------------------------------------------------------------------------------------------------------

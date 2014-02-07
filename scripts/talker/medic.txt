@@ -1306,6 +1306,92 @@ Rule MvMGiantKilledMedic
 }
 
 
+//--------------------------------------------------------------------------------------------------------------
+// Auto Speech Cart
+//--------------------------------------------------------------------------------------------------------------
+Criterion "MedicNotSaidCartMovingBackwardD" "SaidCartMovingBackwardD" "!=1" "required" weight 0
+Criterion "MedicNotSaidCartMovingBackwardO" "SaidCartMovingBackwardO" "!=1" "required" weight 0
+Criterion "MedicNotSaidCartMovingForwardD" "SaidCartMovingForwardD" "!=1" "required" weight 0
+Criterion "MedicNotSaidCartMovingForwardO" "SaidCartMovingForwardO" "!=1" "required" weight 0
+Criterion "MedicNotSaidCartMovingStoppedD" "SaidCartMovingStoppedD" "!=1" "required" weight 0
+Criterion "MedicNotSaidCartMovingStoppedO" "SaidCartMovingStoppedO" "!=1" "required" weight 0
+Response CartMovingBackwardsDefenseMedic                                                     
+{
+}
+Rule CartMovingBackwardsDefenseMedic                                                     
+{
+	criteria ConceptCartMovingBackward IsOnDefense IsMedic MedicNotSaidCartMovingBackwardD IsNotDisguised 75PercentChance                                                                                                                                                          
+	ApplyContext "SaidCartMovingBackwardD:1:20"
+	Response CartMovingBackwardsDefenseMedic                                                     
+}
+Response CartMovingBackwardsOffenseMedic                                                     
+{
+	scene "scenes/Player/Medic/low/6763.vcd"
+	scene "scenes/Player/Medic/low/6765.vcd"
+}
+Rule CartMovingBackwardsOffenseMedic                                                     
+{
+	criteria ConceptCartMovingBackward IsOnOffense IsMedic MedicNotSaidCartMovingBackwardO IsNotDisguised 75PercentChance                                                                                                                                                          
+	ApplyContext "SaidCartMovingBackwardO:1:20"
+	Response CartMovingBackwardsOffenseMedic                                                     
+}
+Response CartMovingForwardDefenseMedic                                                       
+{
+	scene "scenes/Player/Medic/low/6767.vcd"
+	scene "scenes/Player/Medic/low/6766.vcd"
+}
+Rule CartMovingForwardDefenseMedic                                                       
+{
+	criteria ConceptCartMovingForward IsOnDefense IsMedic MedicNotSaidCartMovingForwardD IsNotDisguised 75PercentChance                                                                                                                                                            
+	ApplyContext "SaidCartMovingForwardD:1:20"
+	Response CartMovingForwardDefenseMedic                                                       
+}
+Response CartMovingForwardOffenseMedic                                                       
+{
+	scene "scenes/Player/Medic/low/6752.vcd"
+	scene "scenes/Player/Medic/low/6753.vcd"
+	scene "scenes/Player/Medic/low/6754.vcd"
+	scene "scenes/Player/Medic/low/6755.vcd"
+	scene "scenes/Player/Medic/low/6756.vcd"
+	scene "scenes/Player/Medic/low/6758.vcd"
+	scene "scenes/Player/Medic/low/6760.vcd"
+	scene "scenes/Player/Medic/low/6761.vcd"
+	scene "scenes/Player/Medic/low/6770.vcd"
+	scene "scenes/Player/Medic/low/6774.vcd"
+	scene "scenes/Player/Medic/low/6775.vcd"
+}
+Rule CartMovingForwardOffenseMedic                                                       
+{
+	criteria ConceptCartMovingForward IsOnOffense IsMedic MedicNotSaidCartMovingForwardO IsNotDisguised 75PercentChance                                                                                                                                                            
+	ApplyContext "SaidCartMovingForwardO:1:20"
+	Response CartMovingForwardOffenseMedic                                                       
+}
+Response CartMovingStoppedDefenseMedic                                                       
+{
+	scene "scenes/Player/Medic/low/6786.vcd"
+}
+Rule CartMovingStoppedDefenseMedic                                                       
+{
+	criteria ConceptCartMovingStopped IsOnDefense IsMedic MedicNotSaidCartMovingStoppedD IsNotDisguised 75PercentChance                                                                                                                                                            
+	ApplyContext "SaidCartMovingStoppedD:1:20"
+	Response CartMovingStoppedDefenseMedic                                                       
+}
+Response CartMovingStoppedOffenseMedic                                                       
+{
+	scene "scenes/Player/Medic/low/6776.vcd"
+	scene "scenes/Player/Medic/low/6782.vcd"
+	scene "scenes/Player/Medic/low/6781.vcd"
+	scene "scenes/Player/Medic/low/6779.vcd"
+}
+Rule CartMovingStoppedOffenseMedic                                                       
+{
+	criteria ConceptCartMovingStopped IsOnOffense IsMedic MedicNotSaidCartMovingStoppedO IsNotDisguised 75PercentChance                                                                                                                                                            
+	ApplyContext "SaidCartMovingStoppedO:1:20"
+	Response CartMovingStoppedOffenseMedic                                                       
+}
+//--------------------------------------------------------------------------------------------------------------
+// END OF Auto Speech Cart
+//--------------------------------------------------------------------------------------------------------------
 
 
 

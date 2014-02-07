@@ -2250,7 +2250,7 @@
 	"volume"	"1"
 	"soundlevel"	"SNDLVL_NORM"
 
-	"wave"		"weapons/smg1/smg1_reload.wav"
+	"wave"		"weapons/revolver_worldreload.wav"
 }
 
 "Weapon_Revolver.ClipEmpty"
@@ -5458,7 +5458,7 @@
 {
 	"channel"	"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_70dB"
-	"volume"	"0.3"
+	"volume"	"0.2"
 	"wave"		")weapons\barret_arm_shot.wav"
 }
 

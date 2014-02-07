@@ -1581,3 +1581,104 @@ Rule MvMMoneyPickupSoldier
 }
 
 
+//--------------------------------------------------------------------------------------------------------------
+// Auto Speech Cart
+//--------------------------------------------------------------------------------------------------------------
+Criterion "SoldierNotSaidCartMovingBackwardD" "SaidCartMovingBackwardD" "!=1" "required" weight 0
+Criterion "SoldierNotSaidCartMovingBackwardO" "SaidCartMovingBackwardO" "!=1" "required" weight 0
+Criterion "SoldierNotSaidCartMovingForwardD" "SaidCartMovingForwardD" "!=1" "required" weight 0
+Criterion "SoldierNotSaidCartMovingForwardO" "SaidCartMovingForwardO" "!=1" "required" weight 0
+Criterion "SoldierNotSaidCartMovingStoppedD" "SaidCartMovingStoppedD" "!=1" "required" weight 0
+Criterion "SoldierNotSaidCartMovingStoppedO" "SaidCartMovingStoppedO" "!=1" "required" weight 0
+Response CartMovingBackwardsDefenseSoldier                                                     
+{
+	scene "scenes/Player/Soldier/low/7371.vcd"
+	scene "scenes/Player/Soldier/low/7375.vcd"
+}
+Rule CartMovingBackwardsDefenseSoldier                                                     
+{
+	criteria ConceptCartMovingBackward IsOnDefense IsSoldier SoldierNotSaidCartMovingBackwardD IsNotDisguised 75PercentChance                                                                                                                                                          
+	ApplyContext "SaidCartMovingBackwardD:1:20"
+	Response CartMovingBackwardsDefenseSoldier                                                     
+}
+Response CartMovingBackwardsOffenseSoldier                                                     
+{
+	scene "scenes/Player/Soldier/low/7363.vcd"
+	scene "scenes/Player/Soldier/low/7365.vcd"
+}
+Rule CartMovingBackwardsOffenseSoldier                                                     
+{
+	criteria ConceptCartMovingBackward IsOnOffense IsSoldier SoldierNotSaidCartMovingBackwardO IsNotDisguised 75PercentChance                                                                                                                                                          
+	ApplyContext "SaidCartMovingBackwardO:1:20"
+	Response CartMovingBackwardsOffenseSoldier                                                     
+}
+Response CartMovingForwardDefenseSoldier                                                       
+{
+	scene "scenes/Player/Soldier/low/7368.vcd"
+	scene "scenes/Player/Soldier/low/7369.vcd"
+	scene "scenes/Player/Soldier/low/8559.vcd"
+}
+Rule CartMovingForwardDefenseSoldier                                                       
+{
+	criteria ConceptCartMovingForward IsOnDefense IsSoldier SoldierNotSaidCartMovingForwardD IsNotDisguised 75PercentChance                                                                                                                                                            
+	ApplyContext "SaidCartMovingForwardD:1:20"
+	Response CartMovingForwardDefenseSoldier                                                       
+}
+Response CartMovingForwardOffenseSoldier                                                       
+{
+	scene "scenes/Player/Soldier/low/7345.vcd"
+	scene "scenes/Player/Soldier/low/7346.vcd"
+	scene "scenes/Player/Soldier/low/7347.vcd"
+	scene "scenes/Player/Soldier/low/7350.vcd"
+	scene "scenes/Player/Soldier/low/7351.vcd"
+	scene "scenes/Player/Soldier/low/7352.vcd"
+	scene "scenes/Player/Soldier/low/7353.vcd"
+	scene "scenes/Player/Soldier/low/7356.vcd"
+	scene "scenes/Player/Soldier/low/7355.vcd"
+	scene "scenes/Player/Soldier/low/7359.vcd"
+	scene "scenes/Player/Soldier/low/7362.vcd"
+	scene "scenes/Player/Soldier/low/7357.vcd"
+	scene "scenes/Player/Soldier/low/7349.vcd"
+	scene "scenes/Player/Soldier/low/7348.vcd"
+	scene "scenes/Player/Soldier/low/7354.vcd"
+	scene "scenes/Player/Soldier/low/7377.vcd"
+	scene "scenes/Player/Soldier/low/7378.vcd"
+	scene "scenes/Player/Soldier/low/7379.vcd"
+	scene "scenes/Player/Soldier/low/7382.vcd"
+	scene "scenes/Player/Soldier/low/7383.vcd"
+	scene "scenes/Player/Soldier/low/7385.vcd"
+}
+Rule CartMovingForwardOffenseSoldier                                                       
+{
+	criteria ConceptCartMovingForward IsOnOffense IsSoldier SoldierNotSaidCartMovingForwardO IsNotDisguised 75PercentChance                                                                                                                                                            
+	ApplyContext "SaidCartMovingForwardO:1:20"
+	Response CartMovingForwardOffenseSoldier                                                       
+}
+Response CartMovingStoppedDefenseSoldier                                                       
+{
+	scene "scenes/Player/Soldier/low/7396.vcd"
+	scene "scenes/Player/Soldier/low/7398.vcd"
+	scene "scenes/Player/Soldier/low/7400.vcd"
+}
+Rule CartMovingStoppedDefenseSoldier                                                       
+{
+	criteria ConceptCartMovingStopped IsOnDefense IsSoldier SoldierNotSaidCartMovingStoppedD IsNotDisguised 75PercentChance                                                                                                                                                            
+	ApplyContext "SaidCartMovingStoppedD:1:20"
+	Response CartMovingStoppedDefenseSoldier                                                       
+}
+Response CartMovingStoppedOffenseSoldier                                                       
+{
+	scene "scenes/Player/Soldier/low/7389.vcd"
+	scene "scenes/Player/Soldier/low/7390.vcd"
+	scene "scenes/Player/Soldier/low/7388.vcd"
+}
+Rule CartMovingStoppedOffenseSoldier                                                       
+{
+	criteria ConceptCartMovingStopped IsOnOffense IsSoldier SoldierNotSaidCartMovingStoppedO IsNotDisguised 75PercentChance                                                                                                                                                            
+	ApplyContext "SaidCartMovingStoppedO:1:20"
+	Response CartMovingStoppedOffenseSoldier                                                       
+}
+//--------------------------------------------------------------------------------------------------------------
+// END OF Auto Speech Cart
+//--------------------------------------------------------------------------------------------------------------
+

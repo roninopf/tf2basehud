@@ -1098,3 +1098,97 @@ Rule PlayerPositiveSpy
 	Response PlayerPositiveSpy
 	Response PlayerTauntsSpy
 }
+
+//--------------------------------------------------------------------------------------------------------------
+// Auto Speech Cart
+//--------------------------------------------------------------------------------------------------------------
+Criterion "SpyNotSaidCartMovingBackwardD" "SaidCartMovingBackwardD" "!=1" "required" weight 0
+Criterion "SpyNotSaidCartMovingBackwardO" "SaidCartMovingBackwardO" "!=1" "required" weight 0
+Criterion "SpyNotSaidCartMovingForwardD" "SaidCartMovingForwardD" "!=1" "required" weight 0
+Criterion "SpyNotSaidCartMovingForwardO" "SaidCartMovingForwardO" "!=1" "required" weight 0
+Criterion "SpyNotSaidCartMovingStoppedD" "SaidCartMovingStoppedD" "!=1" "required" weight 0
+Criterion "SpyNotSaidCartMovingStoppedO" "SaidCartMovingStoppedO" "!=1" "required" weight 0
+Response CartMovingBackwardsDefenseSpy                                                     
+{
+	scene "scenes/Player/Spy/low/7588.vcd"
+	scene "scenes/Player/Spy/low/7589.vcd"
+}
+Rule CartMovingBackwardsDefenseSpy                                                     
+{
+	criteria ConceptCartMovingBackward IsOnDefense IsSpy SpyNotSaidCartMovingBackwardD IsNotDisguised 75PercentChance                                                                                                                                                          
+	ApplyContext "SaidCartMovingBackwardD:1:20"
+	Response CartMovingBackwardsDefenseSpy                                                     
+}
+Response CartMovingBackwardsOffenseSpy                                                     
+{
+	scene "scenes/Player/Spy/low/7582.vcd"
+	scene "scenes/Player/Spy/low/7583.vcd"
+}
+Rule CartMovingBackwardsOffenseSpy                                                     
+{
+	criteria ConceptCartMovingBackward IsOnOffense IsSpy SpyNotSaidCartMovingBackwardO IsNotDisguised 75PercentChance                                                                                                                                                          
+	ApplyContext "SaidCartMovingBackwardO:1:20"
+	Response CartMovingBackwardsOffenseSpy                                                     
+}
+Response CartMovingForwardDefenseSpy                                                       
+{
+	scene "scenes/Player/Spy/low/7584.vcd"
+	scene "scenes/Player/Spy/low/7585.vcd"
+	scene "scenes/Player/Spy/low/7587.vcd"
+	scene "scenes/Player/Spy/low/7586.vcd"
+}
+Rule CartMovingForwardDefenseSpy                                                       
+{
+	criteria ConceptCartMovingForward IsOnDefense IsSpy SpyNotSaidCartMovingForwardD IsNotDisguised 75PercentChance                                                                                                                                                            
+	ApplyContext "SaidCartMovingForwardD:1:20"
+	Response CartMovingForwardDefenseSpy                                                       
+}
+Response CartMovingForwardOffenseSpy                                                       
+{
+	scene "scenes/Player/Spy/low/8553.vcd"
+	scene "scenes/Player/Spy/low/7573.vcd"
+	scene "scenes/Player/Spy/low/7574.vcd"
+	scene "scenes/Player/Spy/low/7575.vcd"
+	scene "scenes/Player/Spy/low/7576.vcd"
+	scene "scenes/Player/Spy/low/7577.vcd"
+	scene "scenes/Player/Spy/low/7578.vcd"
+	scene "scenes/Player/Spy/low/7581.vcd"
+	scene "scenes/Player/Spy/low/7591.vcd"
+	scene "scenes/Player/Spy/low/7592.vcd"
+	scene "scenes/Player/Spy/low/7593.vcd"
+	scene "scenes/Player/Spy/low/7595.vcd"
+}
+Rule CartMovingForwardOffenseSpy                                                       
+{
+	criteria ConceptCartMovingForward IsOnOffense IsSpy SpyNotSaidCartMovingForwardO IsNotDisguised 75PercentChance                                                                                                                                                            
+	ApplyContext "SaidCartMovingForwardO:1:20"
+	Response CartMovingForwardOffenseSpy                                                       
+}
+Response CartMovingStoppedDefenseSpy                                                       
+{
+	scene "scenes/Player/Spy/low/7600.vcd"
+	scene "scenes/Player/Spy/low/7601.vcd"
+	scene "scenes/Player/Spy/low/7602.vcd"
+	scene "scenes/Player/Spy/low/7603.vcd"
+}
+Rule CartMovingStoppedDefenseSpy                                                       
+{
+	criteria ConceptCartMovingStopped IsOnDefense IsSpy SpyNotSaidCartMovingStoppedD IsNotDisguised 75PercentChance                                                                                                                                                            
+	ApplyContext "SaidCartMovingStoppedD:1:20"
+	Response CartMovingStoppedDefenseSpy                                                       
+}
+Response CartMovingStoppedOffenseSpy                                                       
+{
+	scene "scenes/Player/Spy/low/7596.vcd"
+	scene "scenes/Player/Spy/low/7598.vcd"
+	scene "scenes/Player/Spy/low/7599.vcd"
+}
+Rule CartMovingStoppedOffenseSpy                                                       
+{
+	criteria ConceptCartMovingStopped IsOnOffense IsSpy SpyNotSaidCartMovingStoppedO IsNotDisguised 75PercentChance                                                                                                                                                            
+	ApplyContext "SaidCartMovingStoppedO:1:20"
+	Response CartMovingStoppedOffenseSpy                                                       
+}
+//--------------------------------------------------------------------------------------------------------------
+// END OF Auto Speech Cart
+//--------------------------------------------------------------------------------------------------------------

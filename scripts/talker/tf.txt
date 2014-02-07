@@ -311,23 +311,23 @@
 	//--------------------------------------------------------------------------------------------------------------
 	Response AteSandwichHeavy
 	{
-		scene "scenes/Player/Heavy/low/SandwichTaunt01.vcd" 
-		scene "scenes/Player/Heavy/low/SandwichTaunt02.vcd" 
-		scene "scenes/Player/Heavy/low/SandwichTaunt03.vcd" 
-		scene "scenes/Player/Heavy/low/SandwichTaunt04.vcd" 
-		scene "scenes/Player/Heavy/low/SandwichTaunt05.vcd" 
-		scene "scenes/Player/Heavy/low/SandwichTaunt06.vcd" 
-		scene "scenes/Player/Heavy/low/SandwichTaunt07.vcd" 
-		scene "scenes/Player/Heavy/low/SandwichTaunt08.vcd" 
-		scene "scenes/Player/Heavy/low/SandwichTaunt09.vcd" 
-		scene "scenes/Player/Heavy/low/SandwichTaunt10.vcd" 
-		scene "scenes/Player/Heavy/low/SandwichTaunt11.vcd" 
-		scene "scenes/Player/Heavy/low/SandwichTaunt12.vcd" 
-		scene "scenes/Player/Heavy/low/SandwichTaunt13.vcd" 
-		scene "scenes/Player/Heavy/low/SandwichTaunt14.vcd" 
-		scene "scenes/Player/Heavy/low/SandwichTaunt15.vcd" 
-		scene "scenes/Player/Heavy/low/SandwichTaunt16.vcd" 
-		scene "scenes/Player/Heavy/low/SandwichTaunt17.vcd" 
+		scene "scenes/Player/Heavy/low/SandwichTaunt01.vcd" predelay "1.0" 
+		scene "scenes/Player/Heavy/low/SandwichTaunt02.vcd" predelay "1.0"  
+		scene "scenes/Player/Heavy/low/SandwichTaunt03.vcd" predelay "1.0" 
+		scene "scenes/Player/Heavy/low/SandwichTaunt04.vcd" predelay "1.0" 
+		scene "scenes/Player/Heavy/low/SandwichTaunt05.vcd" predelay "1.0" 
+		scene "scenes/Player/Heavy/low/SandwichTaunt06.vcd" predelay "1.0" 
+		scene "scenes/Player/Heavy/low/SandwichTaunt07.vcd" predelay "1.0" 
+		scene "scenes/Player/Heavy/low/SandwichTaunt08.vcd" predelay "1.0" 
+		scene "scenes/Player/Heavy/low/SandwichTaunt09.vcd" predelay "1.0" 
+		scene "scenes/Player/Heavy/low/SandwichTaunt10.vcd" predelay "1.0" 
+		scene "scenes/Player/Heavy/low/SandwichTaunt11.vcd" predelay "1.0" 
+		scene "scenes/Player/Heavy/low/SandwichTaunt12.vcd" predelay "1.0" 
+		scene "scenes/Player/Heavy/low/SandwichTaunt13.vcd" predelay "1.0" 
+		scene "scenes/Player/Heavy/low/SandwichTaunt14.vcd" predelay "1.0" 
+		scene "scenes/Player/Heavy/low/SandwichTaunt15.vcd" predelay "1.0" 
+		scene "scenes/Player/Heavy/low/SandwichTaunt16.vcd" predelay "1.0" 
+		scene "scenes/Player/Heavy/low/SandwichTaunt17.vcd" predelay "1.0" 
 	}
 	Rule AteSandwichHeavy
 	{
@@ -339,6 +339,11 @@
 		criteria ConceptAteFood IsHeavy WeaponIsRobotSandvich
 		Response AteSandwichHeavy
 	}
+	Rule AteFestiveSandwichHeavy
+	{
+		criteria ConceptAteFood IsHeavy WeaponIsFestiveSandvich
+		Response AteSandwichHeavy
+	}
 	// Custom stuff
 	// These have been designed as separate responses so that I can add non-sandvich lines I wanted to.
 	// There are two examples of this in the AteChocoHeavy response.
@@ -346,10 +351,10 @@
 	// The IsWeaponMelee allows this to happen, creating a distinction between the choco bar, sandvich and the steak.
 	Response AteSteakHeavy
 	{
-		scene "scenes/Player/Heavy/low/SandwichTaunt01.vcd"
-		scene "scenes/Player/Heavy/low/SandwichTaunt02.vcd" 
-		scene "scenes/Player/Heavy/low/SandwichTaunt14.vcd"
-		scene "scenes/Player/Heavy/low/SandwichTaunt17.vcd" 
+		scene "scenes/Player/Heavy/low/SandwichTaunt01.vcd" predelay "1.0" 
+		scene "scenes/Player/Heavy/low/SandwichTaunt02.vcd" predelay "1.0" 
+		scene "scenes/Player/Heavy/low/SandwichTaunt14.vcd" predelay "1.0" 
+		scene "scenes/Player/Heavy/low/SandwichTaunt17.vcd" predelay "1.0" 
 	}
 	Rule AteSteakHeavy
 	{
@@ -358,12 +363,12 @@
 	}
 	Response AteChocoHeavy
 	{
-		scene "scenes/Player/Heavy/low/SandwichTaunt01.vcd"
-		scene "scenes/Player/Heavy/low/SandwichTaunt02.vcd" 
-		scene "scenes/Player/Heavy/low/SandwichTaunt14.vcd"
-		scene "scenes/Player/Heavy/low/SandwichTaunt17.vcd"
-		scene "scenes/Player/Heavy/low/2066.vcd"
-		scene "scenes/Player/Heavy/low/2260.vcd" 
+		scene "scenes/Player/Heavy/low/SandwichTaunt01.vcd" predelay "1.0" 
+		scene "scenes/Player/Heavy/low/SandwichTaunt02.vcd" predelay "1.0" 
+		scene "scenes/Player/Heavy/low/SandwichTaunt14.vcd" predelay "1.0" 
+		scene "scenes/Player/Heavy/low/SandwichTaunt17.vcd" predelay "1.0" 
+		scene "scenes/Player/Heavy/low/2066.vcd" predelay "1.0" 
+		scene "scenes/Player/Heavy/low/2260.vcd" predelay "1.0" 
 	}
 	Rule AteChocoHeavy
 	{
@@ -420,6 +425,11 @@
 	rule EngineerTauntPlayerMelee
 	{
 		criteria ConceptPlayerTaunt IsEngineer WeaponIsWrench
+		response EngineerTauntMelee
+	}
+	rule EngineerTauntPlayerShortCircuit
+	{
+		criteria ConceptPlayerTaunt IsEngineer WeaponIsShortCircuit
 		response EngineerTauntMelee
 	}
 	rule EngineerTauntGuitar
@@ -1273,6 +1283,11 @@
 		criteria ConceptPlayerTaunt IsDemoman WeaponIsBottle
 		ApplyContext "NotSober:1:10" // Apply the drunk context here
 		response DemomanTauntMelee
+	}
+	rule DemomanTauntPlayerScotsmansSkullcutter
+	{
+		criteria ConceptPlayerTaunt IsDemoman WeaponIsScotsmansSkullcutter
+		response DemomanTauntSecondary
 	}
 	rule DemomanTauntHalloween
 	{

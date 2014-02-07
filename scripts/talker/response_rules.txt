@@ -490,6 +490,8 @@ criterion "WeaponIsAnnihilator" "item_name" "The Neon Annihilator" "required" we
 criterion "WeaponIsPromoAnnihilator" "item_name" "Promo Neon Annihilator" "required" weight 10
 criterion "WeaponIsLooseCannon" "item_name" "The Loose Cannon" "required" weight 10
 criterion "WeaponIsRescueRanger" "item_name" "The Rescue Ranger" "required" weight 10
+criterion "WeaponIsShortCircuit" "item_name" "The Short Circuit" "required" weight 10
+criterion "WeaponIsScotsmansSkullcutter" "item_name" "The Scotsman's Skullcutter" "required" weight 10
 
 //Custom healed concept and critical hit
 criterion "IsBeingHealed" "beinghealed" "1" "required"
