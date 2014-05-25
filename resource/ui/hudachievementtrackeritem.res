@@ -7,7 +7,7 @@
 		"xpos"			"0"		[$WIN32]
 		"ypos"			"0"		[$WIN32]
 		"zpos"			"3"
-		"wide"			"190"
+		"wide"			"200"
 		"tall"			"29"
 		"visible"		"0"
 		"enabled"		"1"	
