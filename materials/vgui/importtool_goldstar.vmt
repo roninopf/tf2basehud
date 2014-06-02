@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "vgui/importtool_goldstar"
+	"$translucent" 1
+}

@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui\import_tool_bg_folder_red"
+	"$translucent" 1
+	"$ignorez" 1
+	"$vertexcolor" 1
+}
