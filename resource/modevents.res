@@ -764,6 +764,7 @@
 		"boneAnglesY" "float"
 		"boneAnglesZ" "float"
 		"projectileType" "short"
+		"isCrit" 	"bool"
 	}
 	
 	"player_jarated"			// sent when a player is jarated, only to the two players involved
@@ -1381,5 +1382,15 @@
 	"mvm_sentrybuster_killed"
 	{
 		"sentry_buster"	"short"	// entindex
+	}
+
+	"upgrades_file_changed"
+	{
+		"path"		"string"
+	}
+
+	"teamplay_pre_round_time_left"
+	{
+		"time"		"short"
 	}
 }

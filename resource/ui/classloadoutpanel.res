@@ -123,23 +123,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-	"CurrentlyEquippedLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"CurrentlyEquippedLabel"
-		"font"			"HudFontSmallestBold"
-		"labelText"		"#CurrentlyEquipped"
-		"textAlignment"	"south-west"
-		"xpos"			"c-55"
-		"ypos"			"22"
-		"zpos"			"1"
-		"wide"			"180"
-		"tall"			"15"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-	}
 	
 	"TopLine"
 	{

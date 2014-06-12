@@ -15,13 +15,41 @@
 		"icon"			"hud_menu_bg"
 		"iconColor"		"255 255 255 255"
 	}
+
+	"Divider"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"Divider"
+		"xpos"			"8"
+		"ypos"			"65"
+		"zpos"			"1"
+		"wide"			"456"
+		"tall"			"2"
+		"fillcolor"		"255 222 208 255"
+	}
+
+	"SpyIcon"
+	{
+		"ControlName"	"CIconPanel"
+		"fieldName"		"SpyIcon"
+		"xpos"			"10"
+		"ypos"			"-2"
+		"zpos"			"1"
+		"wide"			"45"
+		"tall"			"45"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"icon"			"hud_spy_disguise_menu_icon"
+		"iconColor"		"255 255 255 255"
+	}
 	
 	"TitleLabel"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
 		"font"			"HudFontGiantBold"
-		"xpos"			"20"			// align me to the left edge of the first selection
+		"xpos"			"55"			// align me to the left edge of the first selection
 		"ypos"			"5"
 		"zpos"			"3"
 		"wide"			"360"
@@ -42,7 +70,7 @@
 		"fieldName"		"TitleLabelDropshadow"
 		"font"			"HudFontGiantBold"
 		"fgcolor"		"Black"
-		"xpos"			"20"			// align me to the left edge of the first selection
+		"xpos"			"55"			// align me to the left edge of the first selection
 		"ypos"			"6"
 		"zpos"			"3"
 		"wide"			"360"
@@ -95,23 +123,6 @@
 		"textAlignment"	"east"
 		"dulltext"		"0"
 		"brighttext"	"0"
-	}
-	"ShadedBar"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"ShadedBar"
-		"xpos"			"15"
-		"ypos"			"65"
-		"zpos"			"1"
-		"wide"			"439"
-		"tall"			"100"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"	
-		"fillcolor"		"0 0 0 150"
-		"PaintBackgroundType"	"0"
 	}
 	
 	"class_item_red_1"
