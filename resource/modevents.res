@@ -971,6 +971,14 @@
 	"stats_resetround"
 	{
 	}
+
+	"scorestats_accumulated_update"
+	{
+	}
+
+	"scorestats_accumulated_reset"
+	{
+	}
 	
 	"achievement_earned_local"
 	{
@@ -1393,4 +1401,33 @@
 	{
 		"time"		"short"
 	}
+
+	"parachute_deploy"
+	{
+		"index"	"short"		// entindex of the player
+	}
+
+	"parachute_holster"
+	{
+		"index"	"short"		// entindex of the player
+	}
+
+	"kill_refills_meter"
+	{
+		"index"	"short"		// entindex of the player
+	}
+
+	"rps_taunt_event"
+	{
+		"winner"		"short"		// entindex of the winning player
+		"winner_rps"	"byte"		// winner's selection 
+		"loser"			"short"		// entindex of the losing player
+		"loser_rps"		"byte"		// loser's selection 
+	}
+
+	"conga_kill"
+	{
+		"index"	"short"		// entindex of the player
+	}
 }
+
