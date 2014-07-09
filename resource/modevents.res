@@ -1397,6 +1397,36 @@
 		"path"		"string"
 	}
 
+	"rd_team_score_bar"
+	{
+		"points"			"short"	
+		"team"				"byte"
+	}
+
+	"rd_team_score_intel"
+	{
+		"points"			"short"	
+		"team"				"byte"
+	}
+
+	"rd_rules_state_changed"
+	{
+	}
+
+	"rd_robot_killed"
+	{
+		// this extends the original player_death 
+		"userid"	"short"   	// user ID who died				
+		"victim_entindex"	"long"
+		"inflictor_entindex"	"long"	// ent index of inflictor (a sentry, for example)
+		"attacker"	"short"	 	// user ID who killed
+		"weapon"	"string" 	// weapon name killer used 
+		"weaponid"	"short"		// ID of weapon killed used
+		"damagebits"	"long"		// bits of type of damage
+		"customkill"	"short"		// type of custom kill
+		"weapon_logclassname"	"string" 	// weapon name that should be printed on the log
+	}
+
 	"teamplay_pre_round_time_left"
 	{
 		"time"		"short"

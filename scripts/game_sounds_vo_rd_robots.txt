@@ -1,0 +1,242 @@
+"Robot.Collide"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_90dB"
+
+	"rndwave"
+	{
+		"wave"		"vo/bot_worker/tinybot_crosspaths_03.wav"	
+		"wave"		"vo/bot_worker/tinybot_crosspaths_05.wav"	
+		"wave"		"vo/bot_worker/tinybot_crosspaths_06.wav"	
+	}
+}
+
+"Robot.Greeting"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_90dB"
+
+	"rndwave"
+	{
+		"wave"		"vo/bot_worker/tinybot_incidental_01.wav"	
+		"wave"		"vo/bot_worker/tinybot_incidental_02.wav"
+	}
+}
+
+"Robot.Pain"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_90dB"
+
+	"rndwave"
+	{
+		"wave"		"vo/bot_worker/tinybot_takedamage_01.wav"	
+		"wave"		"vo/bot_worker/tinybot_takedamage_09.wav"
+	}
+}
+
+"Robot.Death"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_90dB"
+
+	"rndwave"
+	{
+		"wave"		"vo/bot_worker/tinybot_death_01.wav"	
+		"wave"		"vo/bot_worker/tinybot_death_02.wav"		
+	}
+}
+
+"Announcer.EnemyTeamCloseToWinning"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave"			"vo\announcer_map.enemyclosetowinning_01.wav"
+		"wave"			"vo\announcer_map.enemyclosetowinning_02.wav"
+		"wave"			"vo\announcer_map.enemyclosetowinning_03.wav"
+		"wave"			"vo\announcer_map.enemyclosetowinning_05.wav"
+	}
+}
+
+"Announcer.OurTeamCloseToWinning"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave"			"vo\announcer_map.teamclosetowinning_01.wav"
+		"wave"			"vo\announcer_map.teamclosetowinning_02.wav"
+		"wave"			"vo\announcer_map.teamclosetowinning_03.wav"
+	}
+}
+
+"Announcer.HowToPlayRD"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NORM"
+	"wave"			"vo\announcer_map_intro_02.wav"
+}
+
+"RD.TeamScoreCore"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.4"
+	"soundlevel"  	"SNDLVL_85dB"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui\chime_rd_2base_pos.wav"
+}
+
+"RD.EnemyScoreCore"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.4"
+	"soundlevel"  	"SNDLVL_85dB"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui\chime_rd_2base_neg.wav"
+}
+
+"RD.EnemyStealingPoints"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.7"
+	"soundlevel"  	"SNDLVL_85dB"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui\rd_2base_alarm.wav"
+}
+
+"RD.EnemyCaptured"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"	"vo/announcer_captureflag_enemycaptured_01.wav"
+
+}
+
+"RD.EnemyDropped"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"rndwave"
+	{
+		"wave"		"vo/announcer_captureflag_enemydropped_01.wav"	
+		"wave"		"vo/announcer_captureflag_enemydropped_02.wav"	
+	}
+}
+
+"RD.EnemyReturned"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"rndwave"
+	{
+		"wave"		"vo/announcer_captureflag_enemyreturned_01.wav"	
+		"wave"		"vo/announcer_captureflag_enemyreturned_02.wav"	
+		"wave"		"vo/announcer_captureflag_enemyreturned_03.wav"	
+		"wave"		"vo/announcer_captureflag_enemyreturned_04.wav"	
+	}
+}
+
+"RD.EnemyStolen"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"rndwave"
+	{
+		"wave"		"vo/announcer_captureflag_enemystolen_01.wav"	
+		"wave"		"vo/announcer_captureflag_enemystolen_02.wav"	
+	}
+}
+
+"RD.TeamCaptured"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"rndwave"
+	{
+		"wave"		"vo/announcer_captureflag_teamcaptured_01.wav"	
+		"wave"		"vo/announcer_captureflag_teamcaptured_02.wav"	
+	}
+}
+
+"RD.TeamDropped"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"rndwave"
+	{
+		"wave"		"vo/announcer_captureflag_teamdropped_01.wav"	
+		"wave"		"vo/announcer_captureflag_teamdropped_04.wav"	
+		"wave"		"vo/announcer_captureflag_teamdropped_07.wav"	
+		"wave"		"vo/announcer_captureflag_teamdropped_08.wav"	
+	}
+}
+
+"RD.TeamReturned"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"rndwave"
+	{
+		"wave"		"vo/announcer_captureflag_teamreturned_01.wav"	
+		"wave"		"vo/announcer_captureflag_teamreturned_02.wav"	
+	}
+}
+
+"RD.TeamStolen"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"rndwave"
+	{
+		"wave"		"vo/announcer_captureflag_teamstolen_01.wav"	
+		"wave"		"vo/announcer_captureflag_teamstolen_02.wav"	
+		"wave"		"vo/announcer_captureflag_teamstolen_03.wav"	
+	}
+}
+
+"RD.SpaceGravityTransition"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.4"
+	"soundlevel"  	"SNDLVL_85dB"
+	"pitch"			"PITCH_NORM"
+	"wave"			"misc\outer_space_transition_01.wav"
+}

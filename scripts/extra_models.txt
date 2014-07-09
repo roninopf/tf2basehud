@@ -1,0 +1,254 @@
+"models"
+{
+	"ctf_2fort"
+	{
+		"rocket"
+		{
+			"0"
+			{
+				"location"		"-4198 353 93"
+				"rotation"		"7.88082 291.234 168.739"
+			}		
+		}
+		"carrier"
+		{
+			"0"
+			{
+				"location"		"-3609.09 508.769 52.6112"
+				"rotation"		"0 266 0"
+			}		
+		}
+		"sign"
+		{
+			"0"
+			{
+				"location"		"1824 1184 345"
+				"rotation"		"0 90 0"
+				"model"			"0"
+			}
+			"1"
+			{
+				"location"		"-214 -3200 -117"
+				"rotation"		"0 270 0"
+				"model"			"0"
+			}
+			"2"
+			{
+				"location"		"371 -832 110"
+				"rotation"		"0 90 3"
+				"model"			"1"
+			}
+			"3"
+			{
+				"location"		"539 1280 325"
+				"rotation"		"0 90 -3"
+				"model"			"2"
+			}
+		}
+	}
+	"cp_dustbowl"
+	{
+		"sign"
+		{
+			"0"
+			{
+				"location"		"2564 1584 -139"
+				"rotation"		"0 270 0"
+				"model"			"0"
+			}
+			"1"
+			{
+				"location"		"775 -128 92"
+				"rotation"		"0 90 3"
+				"model"			"2"
+			}
+		}
+	}
+	"tc_hydro"
+	{
+		"sign"
+		{
+			"0"
+			{
+				"location"		"-912 -480 749"
+				"rotation"		"0 270 0"
+				"model"			"0"
+			}
+			"1"
+			{
+				"location"		"-1872 -2336 365"
+				"rotation"		"0 270 0"
+				"model"			"0"
+			}
+			"2"
+			{
+				"location"		"-1466 -2336 361"
+				"rotation"		"0 270 3"
+				"model"			"2"
+			}
+			"3"
+			{
+				"location"		"-1184 2640 316"
+				"rotation"		"0 180 3"
+				"model"			"1"
+			}
+		}
+	}
+	"pl_badwater"
+	{
+		"rocket"
+		{
+			"0"
+			{
+				"location"		"-5034.41 10230.9 -2344.11"
+				"rotation"		"44.1871 152.427 -170.841"
+			}
+		}
+		"carrier"
+		{
+			"0"
+			{
+				"location"		"-6012.43 10035.8 -2414.11"
+				"rotation"		"-2.02016 258.776 6.37398"
+			}
+		}
+		"sign"
+		{
+			"0"
+			{
+				"location"		"3280 -1594 211"
+				"rotation"		"0 0 0"
+				"model"			"0"
+			}
+			"1"
+			{
+				"location"		"306 312 206"
+				"rotation"		"0 270 3"
+				"model"			"2"
+			}
+			"2"
+			{
+				"location"		"3108 -1088 240"
+				"rotation"		"0 270 3"
+				"model"			"1"
+			}
+		}
+	}
+	"koth_lakeside_event"
+	{
+		"sign"
+		{
+			"0"
+			{
+				"location"		"231.5 -1008 389"
+				"rotation"		"0 180 0"
+				"model"			"0"
+			}
+			"1"
+			{
+				"location"		"-136 -928 396"
+				"rotation"		"0 270 3"
+				"model"			"2"
+			}
+		}
+	}
+	"arena_lumberyard"
+	{
+		"sign"
+		{
+			"0"
+			{
+				"location"		"-1664.5 1776 129"
+				"rotation"		"0 180 0"
+				"model"			"0"
+			}
+			"1"
+			{
+				"location"		"-1320 2672 114"
+				"rotation"		"0 180 3"
+				"model"			"1"
+			}
+			"2"
+			{
+				"location"		"-2512 -156 108"
+				"rotation"		"0 0 3"
+				"model"			"2"
+			}
+		}
+	}
+	"mvm_decoy"
+	{
+		"sign"
+		{
+			"0"
+			{
+				"location"		"863.5 -2570 569"
+				"rotation"		"0 180 0"
+				"model"			"0"
+			}
+			"1"
+			{
+				"location"		"801 1632 747"
+				"rotation"		"0 270 -3.5"
+				"model"			"2"
+			}
+		}
+	}
+	"sd_doomsday"
+	{
+		"sign"
+		{
+			"0"
+			{
+				"location"		"-2791.5 2556 129"
+				"rotation"		"0 0 0"
+				"model"			"0"
+			}
+			"1"
+			{
+				"location"		"-3808 2552 124"
+				"rotation"		"0 270 2"
+				"model"			"2"
+			}
+			"2"
+			{
+				"location"		"1193 1376 8"
+				"rotation"		"0 90 2"
+				"model"			"1"
+			}
+		}
+	}
+	"ctf_doublecross"
+	{
+		"carrier"
+		{
+			"0"
+			{
+				"location"		"8826.89 124.393 33.3473"
+				"rotation"		"-11.5169 246.459 -5.46215"
+			}
+		}
+	}
+	"cp_granary"
+	{
+		"carrier"
+		{
+			"0"
+			{
+				"location"		"-9467.61 3629.94 -5.91296"
+				"rotation"		"-1.89876 100.837 9.81988"
+			}
+		}
+	}
+	"pl_barnblitz"
+	{
+		"rocket"
+		{
+			"0"
+			{
+				"location"		"6396.68 -1331.05 -2713.32"
+				"rotation"		"13.2387 81.5351 144.757"
+			}
+		}
+	}
+}

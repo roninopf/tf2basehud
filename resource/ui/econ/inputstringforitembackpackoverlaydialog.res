@@ -247,10 +247,10 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ShuffleButton"
-		"xpos"			"c60"
+		"xpos"			"r105" //From c60
 		"ypos"			"r75"
 		"zpos"			"1"
-		"wide"			"90"
+		"wide"			"95" //From 90
 		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"3"
@@ -277,7 +277,7 @@
 		"xpos"			"10"
 		"ypos"			"r35"
 		"zpos"			"1"
-		"wide"			"70"
+		"wide"			"90"
 		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"3"
@@ -301,10 +301,10 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"GetKeyButton"
-		"xpos"			"90"
+		"xpos"			"r160"
 		"ypos"			"r35"
 		"zpos"			"1"
-		"wide"			"100"
+		"wide"			"150"
 		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"3"
@@ -327,10 +327,10 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"UseKeyButton"
-		"xpos"			"90"
+		"xpos"			"r160"
 		"ypos"			"r35"
 		"zpos"			"1"
-		"wide"			"130"
+		"wide"			"150"
 		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"3"

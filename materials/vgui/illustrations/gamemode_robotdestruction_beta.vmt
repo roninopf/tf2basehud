@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "vgui\illustrations/gamemode_robotdestruction_beta"
+	$translucent 1
+}
