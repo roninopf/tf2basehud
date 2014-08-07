@@ -7,8 +7,8 @@
 		"xpos"					"0"
 		"ypos"					"0"
 		"zpos"					"5"
-		"wide"					"30"
-		"tall"					"30"
+		"wide"					"20"
+		"tall"					"20"
 		"scaleimage"			"1"
 		"visible"				"1"
 		"redimage"				"../HUD/obj_circle_red"
@@ -21,10 +21,11 @@
 			"xpos"					"0"
 			"ypos"					"0"
 			"zpos"					"5"
-			"wide"					"30"
-			"tall"					"30"
+			"wide"					"f0"
+			"tall"					"f0"
 			"scaleimage"			"1"
 			"visible"				"1"
+			"proportionalToParent"	"1"
 		}
 
 		"RespawnTimeLabel"
@@ -48,11 +49,11 @@
 		{
 			"ControlName"		"CTFProgressBar"
 			"fieldName"			"RespawnProgressBar"
-			"xpos"				"-2"
-			"ypos"				"-2"
+			"xpos"				"-1"
+			"ypos"				"-1"
 			"zpos"				"4"	
-			"wide"				"34"
-			"tall"				"34"	
+			"wide"				"f-2"
+			"tall"				"f-2"	
 			"visible"			"1"
 			"visible_minmode"	"0"
 			"enabled"			"1"
@@ -61,6 +62,8 @@
 			"color_inactive"	"TimerProgress.InActive"
 			"color_warning"		"TimerProgress.Warning"
 			"percent_warning"	"1.0"
+			"proportionalToParent"	"1"
 		}
 	}
 }
+

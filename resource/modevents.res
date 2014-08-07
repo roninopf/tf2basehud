@@ -1397,16 +1397,11 @@
 		"path"		"string"
 	}
 
-	"rd_team_score_bar"
+	"rd_team_points_changed"
 	{
 		"points"			"short"	
 		"team"				"byte"
-	}
-
-	"rd_team_score_intel"
-	{
-		"points"			"short"	
-		"team"				"byte"
+		"method"			"byte"
 	}
 
 	"rd_rules_state_changed"

@@ -1,7 +1,6 @@
 "UnlitGeneric"
 {
-	"$baseTexture" "HUD/obj_rd_score_red"
+	"$baseTexture" "HUD/obj_rd_score_stolen_red"
 	"$translucent" 1
 	"$vertexcolor" 1
-
 }
