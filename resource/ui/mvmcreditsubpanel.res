@@ -17,7 +17,7 @@
 	"TableBackground"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"TestBackground"
+		"fieldName"		"TableBackground"
 		"xpos"			"0"
 		"ypos"			"14"
 		"zpos"			"-1"
@@ -36,7 +36,7 @@
 		"textAlignment" "north-west"
 		"xpos"			"10"
 		"ypos"			"15"
-		"wide"			"70"
+		"wide"			"90"
 		"tall"			"20"
 		"fgcolor"		"tanlight"
 	}
@@ -64,7 +64,7 @@
 		"textAlignment" "north-west"
 		"xpos"			"10"
 		"ypos"			"27"
-		"wide"			"70"
+		"wide"			"90"
 		"tall"			"20"
 		"fgcolor"		"tanlight"
 	}
@@ -86,13 +86,13 @@
 	"CreditBonusTextLabel"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"CreditCollectedTextLabel"
+		"fieldName"		"CreditBonusTextLabel"
 		"font"			"HudFontSmall"
 		"labelText"		"#TF_PVE_Bonus"
 		"textAlignment" "north-west"
 		"xpos"			"10"
 		"ypos"			"39"
-		"wide"			"70"
+		"wide"			"90"
 		"tall"			"20"
 		"fgcolor"		"tanlight"
 	}
@@ -100,7 +100,7 @@
 	"CreditBonusCountLabel"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"CreditCollectedCountLabel"
+		"fieldName"		"CreditBonusCountLabel"
 		"font"			"HudFontSmall"
 		"labelText"		"%creditbonus%"
 		"textAlignment" "north-east"
@@ -128,7 +128,7 @@
 	"CreditRatingLabel"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"CreditCollectedTextLabel"
+		"fieldName"		"CreditRatingLabel"
 		"font"			"HudFontMediumBold"
 		"labelText"		"%rating%"
 		"textAlignment" "center"

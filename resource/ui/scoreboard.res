@@ -118,7 +118,7 @@
 		"xpos_hidef"		"40"
 		"ypos"			"23"	[$WIN32]
 		"ypos"			"29"	[$X360]
-		"wide"			"140"
+		"wide"			"120"
 		"tall"			"34"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -190,10 +190,10 @@
 		"font"			"ScoreboardMedium"
 		"labelText"		"%blueteamplayercount%"
 		"textAlignment"		"west"
-		"xpos"			"150"
+		"xpos"			"135"
 		"xpos_hidef"		"100"
 		"ypos"			"33"
-		"wide"			"100"
+		"wide"			"110"
 		"tall"			"29"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -212,13 +212,13 @@
 		"font"			"ScoreboardTeamNameLarge"
 		"labelText"		"%redteamname%"
 		"textAlignment"		"east"
-		"xpos"			"450" [!$OSX]
-		"xpos"			"445" [$OSX]
+		"xpos"			"470" [!$OSX]
+		"xpos"			"465" [$OSX]
 		"xpos_lodef"	"446"
 		"xpos_hidef"	"488"
 		"ypos"			"23"	[$WIN32]
 		"ypos"			"29"	[$X360]
-		"wide"			"140"
+		"wide"			"120"
 		"tall"			"34"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -290,11 +290,11 @@
 		"font"			"ScoreboardMedium"
 		"labelText"		"%redteamplayercount%"
 		"textAlignment"		"east"
-		"xpos"			"350"
+		"xpos"			"355"
 		"xpos_lodef"	"376"
 		"xpos_hidef"	"418"
 		"ypos"			"33"
-		"wide"			"100"
+		"wide"			"110"
 		"tall"			"29"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -549,6 +549,7 @@
 		if_mvm
 		{
 			"visible"		"1"
+			"wide"			"175"
 		}
 	}	
 	"MapName"
@@ -568,6 +569,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor"		"236 227 203 255"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}						
 	"HorizontalLine"
 	{

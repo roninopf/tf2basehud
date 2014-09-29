@@ -36,7 +36,7 @@
 		"textAlignment" "north-west"
 		"xpos"			"10"
 		"ypos"			"15"
-		"wide"			"70"
+		"wide"			"90"
 		"tall"			"20"
 		"fgcolor"		"tanlight"
 	}
@@ -64,7 +64,7 @@
 		"textAlignment" "north-west"
 		"xpos"			"10"
 		"ypos"			"27"
-		"wide"			"70"
+		"wide"			"90"
 		"tall"			"20"
 		"fgcolor"		"tanlight"
 	}
@@ -92,7 +92,7 @@
 		"textAlignment" "north-west"
 		"xpos"			"10"
 		"ypos"			"39"
-		"wide"			"70"
+		"wide"			"90"
 		"tall"			"20"
 		"fgcolor"		"tanlight"
 	}

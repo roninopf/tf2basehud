@@ -89,25 +89,6 @@
 	//	"first_blood"	"bool"		// was this a first blood kill
 	//	"feign_death"	"bool"	// the victim is feign death
 	}
-	
-	"object_removed"
-	{
-		"userid"		"short"     // user ID of the object owner
-		"objecttype"	"short"     // type of object removed
-		"index"			"short"     // index of the object removed
-	}
-	
-	"object_destroyed"
-	{			
-		"userid"	"short"   	// user ID who died				
-		"attacker"	"short"	 	// user ID who killed
-		"assister"	"short"		// user ID of assister
-		"weapon"	"string" 	// weapon name killer used 
-		"weaponid"	"short"		// id of the weapon used
-		"objecttype"	"short"		// type of object destroyed
-		"index"		"short"		// index of the object destroyed
-		"was_building"	"bool"		// object was being built when it died
-	}
 
 	"tf_map_time_remaining"
 	{
@@ -455,36 +436,69 @@
 		"userid"	"short"		// user ID of medic who deployed charge
 		"targetid"	"short"		// user ID of who the medic charged
 	}
-	
+
+	//
+	// Objects built by players (sentry gun, teleporter, etc.)
+	//
+	// Some object events have "object" and some have "objecttype".
+	//   We can't change them as there are third-party
+	//   scripts that listen for these events.
+	//
 	"player_builtobject"
 	{
-		"userid"	"short"		// user ID of the builder
-		"object"	"byte"
-		"index"		"short"		// index of the object
+		"userid"		"short"		// user ID of the builder
+		"object"		"short"		// type of object built
+		"index"			"short"		// index of the object
 	}
-	
+
 	"player_upgradedobject"
 	{
-		"userid"	"short"
-		"object"	"byte"
-		"index"		"short"
-		"isbuilder"	"bool"
+		"userid"		"short"		// user ID of the builder
+		"object"		"short"		// type of object built
+		"index"			"short"		// index of the object
+		"isbuilder"		"bool"
 	}
 
 	"player_carryobject"
 	{
-		"userid"	"short"
-		"object"	"byte"
-		"index"		"short"
+		"userid"		"short"		// user ID of the builder
+		"object"		"short"		// type of object built
+		"index"			"short"		// index of the object
 	}
 
 	"player_dropobject"
 	{
-		"userid"	"short"
-		"object"	"byte"
-		"index"		"short"
+		"userid"		"short"		// user ID of the builder
+		"object"		"short"		// type of object built
+		"index"			"short"		// index of the object
+	}
+
+	"object_removed"
+	{
+		"userid"		"short"		// user ID of the object owner
+		"objecttype"	"short"		// type of object removed
+		"index"			"short"		// index of the object removed
 	}
 	
+	"object_destroyed"
+	{			
+		"userid"	"short"			// user ID who died
+		"attacker"	"short"			// user ID who killed
+		"assister"	"short"			// user ID of assister
+		"weapon"	"string" 		// weapon name killer used 
+		"weaponid"	"short"			// id of the weapon used
+		"objecttype"	"short"		// type of object destroyed
+		"index"		"short"			// index of the object destroyed
+		"was_building"	"bool"		// object was being built when it died
+	}
+
+	"object_detonated"
+	{
+		"userid"		"short"		// user ID of the object owner
+		"objecttype"	"short"		// type of object removed
+		"index"			"short"		// index of the object removed
+	}
+
 	"achievement_earned"
 	{
 		"player"	"byte"		// entindex of the player
@@ -925,7 +939,7 @@
 		"userid"	"short"		// player who deflected the object
 		"ownerid"	"short"		// owner of the object
 		"weaponid"	"short"		// weapon id (0 means the player in ownerid was pushed)
-		"object_entindex" "byte"	// entindex of the object that got deflected
+		"object_entindex" "short"	// entindex of the object that got deflected
 	}
 	
 	"player_mvp"
@@ -1420,6 +1434,14 @@
 		"damagebits"	"long"		// bits of type of damage
 		"customkill"	"short"		// type of custom kill
 		"weapon_logclassname"	"string" 	// weapon name that should be printed on the log
+	}
+
+	"rd_robot_impact"
+	{
+		"entindex" "short"
+		"impulse_x" "float"
+		"impulse_y"	"float"
+		"impulse_z"	"float"
 	}
 
 	"teamplay_pre_round_time_left"
