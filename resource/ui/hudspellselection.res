@@ -1,5 +1,15 @@
 "Resource/UI/HudSpellSelection.res"
 {		
+	HudSpellMenu
+	{
+		"xpos"			"130"
+
+		"if_killstreak_visible"
+		{
+			"xpos"			"160"
+		}
+	}
+			
 	"ItemEffectMeterBG"
 	{
 		"ControlName"	"CTFImagePanel"

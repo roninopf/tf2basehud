@@ -1476,5 +1476,27 @@
 	{
 		"index"	"short"		// entindex of the player
 	}
+
+	"player_initial_spawn"
+	{
+		"index"	"short"		// entindex of the player
+	}
+
+	"competitive_victory"		
+	{
+	}
+
+	"competitive_skillrating_update"
+	{
+		"index"		"short"		// entindex of the player
+		"rating"	"short"		// skillrating
+		"delta"		"short"		// skillrating adjustment
+	}
+
+	"minigame_win"
+	{
+		"team"		"byte"		// which team won the minigame
+		"type"		"byte"		// what type of minigame was won
+	}
 }
 
