@@ -1498,5 +1498,10 @@
 		"team"		"byte"		// which team won the minigame
 		"type"		"byte"		// what type of minigame was won
 	}
+
+	"sentry_on_go_active"
+	{
+		"index"		"short"
+	}
 }
 
