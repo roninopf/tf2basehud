@@ -80,6 +80,10 @@
 		"kill_streak_wep" 	"short"	// Kill streak for killing weapon
 		"kill_streak_assist" "short"	// Kill streak for assister count
 		"kill_streak_victim" "short"	// Victims kill streak
+                "ducks_streaked"	"short" // Duck streak increment from this kill
+		"duck_streak_total"	"short" // Duck streak count for attacker
+		"duck_streak_assist"	"short" // Duck streak count for assister
+		"duck_streak_victim"	"short" // (former) duck streak count for victim
 		"rocket_jump"		"bool"		// was the victim rocket jumping
 		
 	//	"dominated"	"short"		// did killer dominate victim with this kill
@@ -1497,6 +1501,16 @@
 	{
 		"team"		"byte"		// which team won the minigame
 		"type"		"byte"		// what type of minigame was won
+	}
+
+	"sentry_on_go_active"
+	{
+		"index"		"short"
+	}
+	
+	"duck_xp_level_up"
+	{
+		"level"		"short"		// leveled up to what
 	}
 }
 
