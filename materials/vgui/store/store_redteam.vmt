@@ -1,7 +1,0 @@
-"unlitGeneric"
-{
-	"$baseTexture" "vgui/store/store_redteam"
-	"$translucent" 1
-	"$vertexalpha"	"1"
-}
-

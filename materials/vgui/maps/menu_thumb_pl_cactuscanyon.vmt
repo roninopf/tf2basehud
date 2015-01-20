@@ -1,7 +1,0 @@
-"UnlitGeneric"
-{
-	"$baseTexture" "vgui\maps/menu_thumb_pl_cactuscanyon"
-	"$translucent" 1
-	"$ignorez" 1
-	"$vertexcolor" 1
-}

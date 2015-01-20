@@ -1,7 +1,0 @@
-"unlitGeneric"
-{
-	"$baseTexture" "vgui\main_menu\motd_robo_2013"
-
-	"$translucent" 1
-	"$ignorez" 1
-}

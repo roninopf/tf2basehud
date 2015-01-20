@@ -1,7 +1,0 @@
-"unlitGeneric"
-{
-	"$baseTexture" "vgui\main_menu\halloween2014_bosses"
-
-	"$translucent" 1
-	"$ignorez" 1
-}

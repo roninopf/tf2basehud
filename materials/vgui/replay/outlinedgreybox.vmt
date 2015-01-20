@@ -1,6 +1,0 @@
-"UnlitGeneric"
-{
-	"$basetexture" "vgui\replay\outlinedgreybox"
-	"$translucent" 1
-	"$ignorez" 1
-}

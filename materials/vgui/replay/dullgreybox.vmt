@@ -1,6 +1,0 @@
-"UnlitGeneric"
-{
-	"$basetexture" "vgui\replay\dullgreybox"
-	"$translucent" 1
-	"$ignorez" 1
-}

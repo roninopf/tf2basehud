@@ -1,9 +1,0 @@
-"UnlitGeneric"
-{
-	"$basetexture" "vgui\main_menu\motd_eotl"
-
-	"$translucent" 1
-	"$ignorez" 1
-
-
-}

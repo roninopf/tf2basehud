@@ -1,7 +1,0 @@
-"unlitGeneric"
-{
-	"$baseTexture" "vgui\main_menu\motd_mechaupdate"
-
-	"$translucent" 1
-	"$ignorez" 1
-}

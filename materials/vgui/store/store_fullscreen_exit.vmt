@@ -1,7 +1,0 @@
-"unlitGeneric"
-{
-	"$baseTexture" "vgui/store/store_fullscreen_exit"
-	"$translucent" 1
-	"$vertexalpha"	"1"
-}
-

@@ -1,6 +1,0 @@
-"UnlitGeneric"
-{
-	"$basetexture" "vgui\blog_forward_disabled"
-	"$translucent" 1
-	"$ignorez" 1
-}
