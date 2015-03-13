@@ -104,7 +104,23 @@
 		"scaleImage"	"1"	
 		"image"			"../vgui/bleed_drop"
 		"fgcolor"		"TanDark"
-	}		
+	}
+	"PlayerStatusHookBleedImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusHookBleedImage"
+		"xpos"			"85"
+		"xpos_minmode"	"70"
+		"ypos"			"0"
+		"zpos"			"8"
+		"wide"			"32"
+		"tall"			"32"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"../vgui/bleed_drop_grapple"
+		"fgcolor"		"TanDark"
+	}
 	"PlayerStatusMilkImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -462,6 +478,22 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_agility_hud"
+		"fgcolor"		"TanDark"
+	}
+	"PlayerStatus_RuneKnockout"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatus_RuneKnockout"
+		"xpos"			"85"
+		"xpos_minmode"	"70"
+		"ypos"			"0"
+		"zpos"			"7"
+		"wide"			"31"
+		"tall"			"31"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"../Effects/powerup_knockout_hud"
 		"fgcolor"		"TanDark"
 	}
 }

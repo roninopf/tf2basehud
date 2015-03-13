@@ -2027,6 +2027,67 @@
 			"font"		"HudFontSmallest"
 		}
 
+		"AnimationLoopCheckButton"
+		{
+			"ControlName"	"CheckButton"
+			"fieldName"		"AnimationLoopCheckButton"
+			"labelText"		"Loop"
+			"Font"			"HudFontSmallest"
+			"textAlignment"	"west"
+			"xpos"			"0" 
+			"ypos"			"140"
+			"wide"			"80"
+			"tall"			"20"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"command"		"UpdateHalfLambert"
+			"border"		"SteamWorkshopBorder"
+		}
+
+		"AnimationLoopStartLabel"
+		{
+			"ControlName"		"Label"
+			"fieldName"		"AnimationLoopStartLabel"
+			"xpos"		"r90"
+			"ypos"		"143"
+			"wide"		"60"
+			"tall"		"15"
+			"proportionaltoparent"	"1"
+			"autoResize"		"0"
+			"pinCorner"		"0"
+			"labelText"			"Start Time:"
+			"font"		"HudFontSmallest"
+		}
+
+		"AnimationLoopStartTextEntry"
+		{
+			"ControlName"		"TextEntry"
+			"fieldName"		"AnimationLoopStartTextEntry"
+			"xpos"		"r40"
+			"ypos"		"140"
+			"wide"		"40"
+			"tall"		"20"
+			"proportionaltoparent"	"1"
+			"autoResize"		"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"0"
+			"tabPosition"		"1"
+			"textHidden"		"0"
+			"editable"		"1"
+			"maxchars"		"128"
+			"NumericInputOnly"		"1"
+			"unicode"		"1"
+			"fgcolor_override"	"0 0 0 255"
+			"bgcolor_override"	"235 226 202 255"
+			"paintbackgroundtype" "2"
+			"font"		"HudFontSmallest"
+		}
+
 		"ButtonEditQCI"
 		{
 			"ControlName"		"Button"
