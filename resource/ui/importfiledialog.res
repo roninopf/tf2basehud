@@ -2044,7 +2044,7 @@
 			"enabled"		"1"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"command"		"UpdateHalfLambert"
+			"command"		"UpdateAnimationLoopable"
 			"border"		"SteamWorkshopBorder"
 		}
 
