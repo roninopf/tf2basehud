@@ -87,7 +87,7 @@
 		"xpos"					"25"
 		"ypos"					"10"
 		"zpos"					"2"
-		"wide"					"40"
+		"wide"					"44"
 		"tall"					"20"	
 		"pinCorner"				"2"
 		"visible"				"1"
@@ -97,6 +97,6 @@
 		"textAlignment"			"north"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"HudFontMedium"
+		"font"					"HudFontMediumSmall"
 	}
 }

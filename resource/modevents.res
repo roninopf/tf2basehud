@@ -66,7 +66,7 @@
 		"inflictor_entindex"	"long"	// ent index of inflictor (a sentry, for example)
 		"attacker"	"short"	 	// user ID who killed
 		"weapon"	"string" 	// weapon name killer used 
-		"weaponid"	"short"		// ID of weapon killed used
+		"weaponid"	"short"		// ID of weapon killer used
 		"damagebits"	"long"		// bits of type of damage
 		"customkill"	"short"		// type of custom kill
 		"assister"	"short"		// user ID of assister
@@ -85,6 +85,8 @@
 		"duck_streak_assist"	"short" // Duck streak count for assister
 		"duck_streak_victim"	"short" // (former) duck streak count for victim
 		"rocket_jump"		"bool"		// was the victim rocket jumping
+
+		"weapon_def_index"	"short"		// item def index of weapon killer used
 		
 	//	"dominated"	"short"		// did killer dominate victim with this kill
 	//	"assister_dominated" "short"	// did assister dominate victim with this kill
@@ -317,6 +319,7 @@
 		"cp"		"byte"			// index of the point that was blocked
 		"cpname"	"string"		// name of the point
 		"blocker"	"byte"			// index of the player that blocked the cap
+		"victim"	"byte"			// index of the player that died, causing the block
 	}
 	"teamplay_flag_event"
 	{
@@ -830,6 +833,9 @@
 		"quality"		"byte"		// quality of the item
 		"method"		"byte"		// method by which we acquired the item
 		"itemdef"		"long"		// the item definition index
+		"isstrange"		"byte"		
+		"isunusual"		"byte"		
+		"wear"			"float"		
 	}
 
 	"show_annotation"
@@ -1511,6 +1517,63 @@
 	"duck_xp_level_up"
 	{
 		"level"		"short"		// leveled up to what
+	}
+
+	"questlog_opened"
+	{
+	}
+
+	"schema_updated"
+	{
+	}
+
+	"localplayer_pickup_weapon"
+	{
+	}
+
+	"rd_player_score_points"
+	{
+		"player"	"short"
+		"method"	"short"
+		"amount"	"short"
+	}
+
+	"demoman_det_stickies"
+	{
+		"player"	"short" // entindex of the detonating player
+	}
+
+	"quest_objective_completed" // For prediction
+	{
+		"quest_item_id_low"			"long"
+		"quest_item_id_hi"			"long"
+		"quest_objective_id"	"long"
+	}
+
+	"player_score_changed"
+	{
+		"player"	"byte"
+		"delta"		"short"
+	}
+
+	"killed_capping_player"
+	{
+		"cp"		"byte"			// index of the point
+		"killer"	"byte"			// index of the killer
+		"victim"	"byte"			// index of the victim
+		"assister"	"byte"			// index of the assister
+	}
+
+	"environmental_death"
+	{
+		"killer"	"byte"			// index of the killer
+		"victim"	"byte"			// index of the victim
+	}
+
+	"projectile_direct_hit"
+	{
+		"attacker"	"byte"			// index of the player who shot the projectile
+		"victim"	"byte"			// index of the player who got direct-ht
 	}
 }
 

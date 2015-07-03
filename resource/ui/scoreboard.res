@@ -17,10 +17,12 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
+		"medal_width"		"15"
 		"avatar_width"		"57"	[$WIN32]
 		"avatar_width"		"0"		[$X360]
-		"name_width"		"114"	[$WIN32]
+		"name_width"		"118"	[$WIN32]
 		"name_width"		"150"	[$X360]
+		"name_width_short"	"85"	[$WIN32]		
 		"status_width"		"15"	[$WIN32]
 		"status_width"		"12"	[$X360]
 		"nemesis_width"		"15"	[$WIN32]
@@ -32,6 +34,8 @@
 		"score_width_hidef"	"50"
 		"ping_width"		"23"	[$WIN32]
 		"ping_width"		"50"	[$X360]		// Larger to push the value off the edge
+		"stats_width"		"30"
+		"killstreak_width"	"20"
 	}
 	"BlueScoreBG"
 	{
@@ -375,6 +379,7 @@
 		"autoresize"	"3"
 		"linespacing"	"22"
 		"fgcolor"		"blue"
+		//"show_columns"	"1"
 		
 		if_mvm
 		{
@@ -402,7 +407,8 @@
 		"autoresize"	"3"
 		"linespacing"	"22"
 		"textcolor"		"red"
-		
+		//"show_columns"	"1"
+
  		if_mvm
  		{
  			"visible"		"0"

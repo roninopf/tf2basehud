@@ -134,11 +134,13 @@
 				"font"			"FontStorePrice"
 				"textAlignment"	"east"
 				"xpos"			"rs1"
+				"ypos"			"0"
 				"zpos"			"15"
 				"wide"			"25"
 				"tall"			"12"
 				"textinsetx"	"8"
-				"autoResize"	"1"
+				"autoResize"	"0"
+				"skip_autoresize"	"1"
 				"pinCorner"		"0"	
 				"visible"		"0"
 				"enabled"		"1"
@@ -328,6 +330,7 @@
 		"selectionTextColor_override" "235 226 202 255"
 		"defaultSelectionBG2Color_override" "0 0 0 0"
 	}	
+
 	
 	"mouseoveritempanel"
 	{
@@ -344,7 +347,6 @@
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
 		
-		"text_ypos"			"20"
 		"text_center"		"1"
 		"model_hide"		"1"
 		"resize_to_text"	"1"
