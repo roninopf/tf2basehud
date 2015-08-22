@@ -533,6 +533,11 @@
 		"userid"	"short"
 	}
 
+	"player_askedforball"
+	{
+		"userid"	"short"
+	}
+
 	"localplayer_becameobserver"
 	{
 	}
@@ -1574,6 +1579,45 @@
 	{
 		"attacker"	"byte"			// index of the player who shot the projectile
 		"victim"	"byte"			// index of the player who got direct-ht
+	}
+
+	// passtime
+
+	"pass_get" 
+	{
+		"owner" "short"
+	}
+
+	"pass_score"
+	{
+		"player" "short"
+		"points" "byte"
+	}
+
+	"pass_free"
+	{
+		"owner" "short"
+		"attacker" "short"
+	}
+
+	"pass_pass_caught"
+	{
+		"passer" "short"
+		"catcher" "short"
+		"dist" "float"
+		"duration" "float"
+	}
+
+	"pass_ball_stolen"
+	{
+		"victim" "short"
+		"attacker" "short"
+	}
+
+	"pass_ball_blocked"
+	{
+		"owner" "short"
+		"blocker" "short"
 	}
 }
 

@@ -75,3 +75,17 @@
 	"elasticity"	"3"
 	"density"	"500"
 }
+
+"passtime_ball"
+{
+	"base"	"rubber"
+	"elasticity" "1"
+	"friction" "1"
+
+	"bulletimpact"	"Grenade.ImpactHard"
+	"scraperough"	"Grenade.ScrapeRough"
+	"scrapesmooth"	"Grenade.ScrapeSmooth"
+	"impacthard"	"Grenade.ImpactHard"
+	"impactsoft"	"Grenade.ImpactSoft"
+	"rolling"	"Grenade.Roll"
+}
