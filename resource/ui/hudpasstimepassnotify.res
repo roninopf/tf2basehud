@@ -55,7 +55,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"textAlignment"	"center"
-			"labelText"		"IN PASS RANGE"
+			"labelText"		"#TF_Passtime_InPassRange"
 			fgcolor_override	"224 217 197 180"
 		}
 

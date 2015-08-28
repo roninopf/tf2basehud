@@ -2144,6 +2144,17 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"ItemFontNameLarger"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"18"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		"ItemFontAttribSmallest"
 		{
 			"1"
@@ -2187,6 +2198,17 @@ Scheme
 				"antialias" 	"1"
 			}
 		}	
+		"ItemFontAttribLarger"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"14"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
 		
 		"AchievementTracker_Name"
 		{
@@ -2384,6 +2406,31 @@ Scheme
 				"tall"		"8"
 				"weight"	"0"
 				"antialias" 	"1"
+			}
+		}
+
+		"TradeUp_Text"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"8"
+				"weight"	"400"
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+
+		"TradeUp_Quote"
+		{
+			"1"
+			{
+				"name"		"Trebuchet MS"
+				"tall"		"9"
+				"weight"	"400"
+				"antialias" "1"
+				"additive"	"0"
+				"italic"	"1"
 			}
 		}
 		
