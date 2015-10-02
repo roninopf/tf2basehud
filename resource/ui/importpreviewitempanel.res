@@ -534,42 +534,50 @@
 		}
 	}
 
-	"PaintComboBox"
+	"OptionsButton"
 	{
-		"ControlName"		"ComboBox"
-		"fieldName"			"PaintComboBox"
-		"Font"				"HudFontSmallestBold"
-		"xpos"				"c-105"
-		"ypos"				"c-175"
-		"zpos"				"20"
-		"wide"				"150"
-		"tall"				"15"
-		"autoResize"		"0"
-		"pinCorner"			"0"
-		"editable"			"0"
-		"visible"			"1"
-	}
-
-	"NextStyleButton"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"NextStyleButton"
+		"ControlName"	"CExImageButton"
+		"fieldName"		"OptionsButton"
+		"xpos"			"c35"
+		"ypos"			"c-175"
 		"zpos"			"20"
+		"wide"			"11"
+		"tall"			"11"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"#Store_NextStyle"
-		"font"			"HudFontSmallest"
+		"labeltext"		""
+		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		"textinsetx"	"50"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"Command"		"next_style"
+		"default"		"0"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}		
+		"Command"		"options"
+		
+		"paintbackground"	"0"
+		
+		"image_drawcolor"	"118 107 94 200"
+		"image_armedcolor"	"246 247 213 255"
+		
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"1"
+			"wide"			"11"
+			"tall"			"11"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"glyph_options"
+			"scaleImage"	"1"
+		}				
+	}
 
 	"OptionsFrame"
 	{
