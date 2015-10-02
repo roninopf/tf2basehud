@@ -61,6 +61,7 @@ Resource/UI/HudPasstimePassNotify.res
 
 		TextLockedOn
 		{
+<<<<<<< HEAD
 			ControlName 			CExLabel
 			fieldName 				TextLockedOn
 			font 					HudFontMediumSmallBold
@@ -75,6 +76,21 @@ Resource/UI/HudPasstimePassNotify.res
 			textAlignment 			center
 			labelText 				#Msg_PasstimeLockedOn
 			fgcolor_override 		"224 217 197 180"
+=======
+			"ControlName"	"CExLabel"
+			"fieldName"		"TopText"
+			"font"			"HudFontMediumSmallBold"
+			"xpos"			0
+			"ypos"			"4"
+			"zpos"			"3"
+			"wide"			"150"
+			"tall"			"16"
+			"visible"		"1"
+			"enabled"		"1"
+			"textAlignment"	"center"
+			"labelText"		"#TF_Passtime_InPassRange"
+			fgcolor_override	"224 217 197 180"
+>>>>>>> f6186bf8172e486ca2a37ce974b38db1f2a90ed3
 		}
 
 		TextPassIncoming
