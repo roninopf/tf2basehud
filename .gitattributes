@@ -1,0 +1,5 @@
+*.res	eol=crlf
+*.txt	eol=crlf
+*.ctx	binary
+
+.gitattributes	export-ignore
