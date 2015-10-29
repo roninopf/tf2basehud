@@ -24,6 +24,15 @@
 
 		"disabled_bar_color_override"		"151 135 102 255"
 		"disabled_bar_bg_color_override"	"150 134 101 51"
+
+		"item_attribute_res_file" "resource/UI/HudAttributeTracker.res"
+		"progress_bar_standard_loc_token"	"#QuestPoints_Standard"
+		"progress_bar_advanced_loc_token"	"#QuestPoints_Bonus"
+
+		"standard_objective_tick_sound"		"Quest.StatusTick"
+		"standard_points_complete_sound"	"Quest.StatusTickComplete"
+		"advanced_objective_sound_complete"	"Quest.StatusTickBonus"
+		"advanced_points_complete_sound"	"Quest.StatusTickBonusComplete"
 	}
 
 	"ItemName"
