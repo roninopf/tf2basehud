@@ -4,11 +4,14 @@
 {
 	"QuestItemPanel"
 	{
-		"QuestPaperContainer"
+		"MainContainer"
 		{
-			"CharacterBackdropImage"
+			"QuestPaperContainer"
 			{
-				"image"			"contracts/photo_soldier1"
+				"CharacterBackdropImage"
+				{
+					"image"			"contracts/photo_scout1"
+				}
 			}
 		}
 	}	

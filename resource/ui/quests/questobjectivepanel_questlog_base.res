@@ -7,8 +7,8 @@
 		"xpos"			"p0.03"
 		"ypos"			"p0.5"
 		"zpos"			"300"
-		"wide"			"115"
-		"tall"			"20"
+		"wide"			"f0"
+		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"	
 		"mouseinputenabled"	"0"
@@ -17,8 +17,9 @@
 		"PaintBackgroundType"	"2"
 
 		"enabled_text_color_override"		"Black"
-
 		"disabled_text_color_override"		"Black"
+		"normal_token"		"#QuestObjective_Required"
+		"advanced_token"	"#QuestObjective_Optional"
 	}
 	
 	"AttribDesc"

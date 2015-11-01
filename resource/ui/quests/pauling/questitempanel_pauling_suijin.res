@@ -4,11 +4,14 @@
 {
 	"QuestItemPanel"
 	{
-		"QuestPaperContainer"
+		"MainContainer"
 		{
-			"CharacterBackdropImage"
+			"QuestPaperContainer"
 			{
-				"image"			"contracts/photo_koth_suijin"
+				"CharacterBackdropImage"
+				{
+					"image"			"contracts/photo_koth_suijin"
+				}
 			}
 		}
 	}	
