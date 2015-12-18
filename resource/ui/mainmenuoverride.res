@@ -203,18 +203,18 @@
 		{
 			"image"		"../console/background_xmas2011"
 		}
-		if_eotl_launch
-		{
-			"image"		"../console/title_eotl01"
-		}
-		if_operation
-		{
-			"image"		"../console/title_team_halloween2015"
-		}
-		if_community_update
-		{
-			"image"		"../console/title_invasion"
-		}
+//		if_eotl_launch
+//		{
+//			"image"		"../console/title_eotl01"
+//		}
+//		if_operation
+//		{
+//			"image"		"../console/title_team_halloween2015"
+//		}
+//		if_community_update
+//		{
+//			"image"		"../console/title_invasion"
+//		}
 	}
 					
 	"TFLogoImage"
@@ -3881,10 +3881,10 @@
 			"ControlName"	"EditablePanel"
 			"fieldname"		"Background"
 			"xpos"			"cs-0.5"
-			"ypos"			"300"
+			"ypos"			"315"
 			"zpos"			"0"
 			"wide"			"p0.8"
-			"tall"			"120"
+			"tall"			"90"
 			"visible"		"1"
 			"PaintBackgroundType"	"0"
 			"proportionaltoparent"	"1"
@@ -3920,7 +3920,7 @@
 				"zpos"			"11"
 				"wide"			"p0.48"
 				"tall"			"26"
-				"visible"		"1"
+				"visible"		"0"
 				"PaintBackgroundType"	"0"
 				"proportionaltoparent"	"1"
 
@@ -3972,7 +3972,7 @@
 				"zpos"			"11"
 				"wide"			"p0.48"
 				"tall"			"26"
-				"visible"		"1"
+				"visible"		"0"
 				"PaintBackgroundType"	"0"
 				"proportionaltoparent"	"1"
 
@@ -4020,10 +4020,10 @@
 				"ControlName"			"CCyclingAdContainerPanel"
 				"fieldName"				"CyclingAd"
 				"xpos"					"5"
-				"ypos"					"p0.47"
+				"ypos"					"25"
 				"zpos"					"100"
 				"wide"					"f10"
-				"tall"					"p0.5"
+				"tall"					"60"
 				"visible"				"1"
 				"enabled"				"1"
 				"scaleImage"			"1"
@@ -4035,19 +4035,25 @@
 				{
 					"0"
 					{
-						"item"		"Halloween 2015 Key"
+						"item"		"Arkham Cowl"
 						"show_market"	"0"
 					}
 					"1"
 					{
-						"item"		"Halloween 2015 case"
+						"item"		"Fear Monger"
+						"show_market"	"0"
 					}
 					"2"
+					{
+						"item"		"The Firefly"
+						"show_market"	"0"
+					}
+					"3"
 					{
 						"item"		"Taunt: Zoomin' Broom"
 						"show_market"	"0"
 					}
-					"3"
+					"4"
 					{
 						"item"		"Taunt: Soldier's Requiem"
 						"show_market"	"0"
