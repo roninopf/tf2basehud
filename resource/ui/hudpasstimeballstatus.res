@@ -27,37 +27,64 @@
 		"enabled"			"1"
 	}
 
-	"TextBox"
+	"EventTitleLabel"
 	{
-		"ControlName"		"EditablePanel"
-		"fieldName"			"TextBox"
-		"xpos"				"c-100"
-		"ypos"				"c100"
-		"zpos"				"1"
-		"wide"				"200"
-		"tall"				"40"
-		"visible"			"0"
-		"enabled"			"1"
-		//bgcolor_override	"97 94 85 180"
-		border TFFatLineBorder
-		RoundedCorners 255
-		
-		"TextLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"TextLabel"
-			"font"			"HudFontMediumSmallBold"
-			"xpos"			0
-			"ypos"			15
-			"zpos"			"3"
-			"wide"			"200"
-			"tall"			"16"
-			"visible"		"1"
-			"enabled"		"1"
-			"textAlignment"	"center"
-			"labelText"		"A TEAM STOLE THE BALL"
-			fgcolor_override	"224 217 197 180"
-		}
+		"ControlName"	"CExLabel"
+		"fieldName"		"EventTitleLabel"
+		"dropshadow"	"1"
+		"font"			"HudFontBiggerBold"
+		"xpos"			0
+		"ypos"			c100
+		"zpos"			"3"
+		"wide"			"f"
+		"tall"			"25"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"center"
+		"labelText"		"A TEAM STOLE THE BALL"
+		fgcolor_override	"224 217 197 255"
+	}
+
+	"EventBonusLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"EventBonusLabel"
+		"font"			"HudFontMediumSmallBold"
+		"dropshadow"	"1"
+		"xpos"			0
+		"ypos"			0
+		"zpos"			"3"
+		"wide"			"f"
+		"tall"			"20"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"center"
+		"labelText"		""
+		fgcolor_override	"255 235 35 200"
+		pin_to_sibling			EventTitleLabel
+		pin_corner_to_sibling	6
+		pin_to_sibling_corner	4
+	}
+
+	"EventDetailLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"EventDetailLabel"
+		"font"			"HudFontMediumSmallBold"
+		"dropshadow"	"1"
+		"xpos"			0
+		"ypos"			0
+		"zpos"			"3"
+		"wide"			"f"
+		"tall"			"24"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"center"
+		"labelText"		"A TEAM STOLE THE BALL"
+		fgcolor_override	"224 217 197 255"
+		pin_to_sibling			EventTitleLabel
+		pin_corner_to_sibling	4
+		pin_to_sibling_corner	6
 	}
 
 	"ProgressLevelBar"
@@ -113,7 +140,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		""
-		"image"			"../hud/cart_home_blue"
+		"image"			"../passtime/hud/passtime_goal_blue_icon"
 		"scaleImage"	"1"	
 	}
 
@@ -132,7 +159,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		""
-		"image"			"../hud/cart_home_blue"
+		"image"			"../passtime/hud/passtime_goal_blue_icon"
 		"scaleImage"	"1"	
 	}
 
@@ -151,7 +178,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		""
-		"image"			"../hud/cart_home_blue"
+		"image"			"../passtime/hud/passtime_goal_blue_icon"
 		"scaleImage"	"1"	
 	}
 
@@ -171,7 +198,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		""
-		"image"			"../hud/cart_home_red"
+		"image"			"../passtime/hud/passtime_goal_red_icon"
 		"scaleImage"	"1"	
 	}
 
@@ -190,7 +217,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		""
-		"image"			"../hud/cart_home_red"
+		"image"			"../passtime/hud/passtime_goal_red_icon"
 		"scaleImage"	"1"	
 	}
 
@@ -210,7 +237,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		""
-		"image"			"../hud/cart_home_red"
+		"image"			"../passtime/hud/passtime_goal_red_icon"
 		"scaleImage"	"1"	
 	}
 
@@ -271,6 +298,115 @@
 		pin_corner_to_sibling	4
 		pin_to_sibling_corner	6
 	}
+
+
+
+	"BallPowerCluster" 
+	{
+		"ControlName" "EditablePanel"
+		"fieldName" "BallPowerCluster"
+		"xpos" "0"
+		"ypos" "32"
+		"zpos" "5"
+		"wide" "f0"
+		"tall" "f0"
+		"autoResize"	"0"
+		"visible"		"1"
+		"enabled"		"1"
+
+		"BallPowerMeterFrame"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"BallPowerMeterFrame"	
+			"xpos"			"c-100"
+			"ypos"			"0"
+			"zpos"			"5"
+			"wide"			"200"
+			"tall"			"50"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"image"			"../passtime/hud/passtime_powerball_meter_frame"
+			"scaleImage"	"1"					
+		}
+
+		"BallPowerMeterFinalSectionContainer"
+		{
+			// This exists because the bar is filled by changing the width dynamically
+			// and if you change the width of the ImagePanel, it will stretch the image.
+			// But if you instead change the width of this container, the image is simply
+			// cut off instead of stretched.
+			// Also so that the bar is clipped nicely to the border.
+			"ControlName"		"EditablePanel"
+			"fieldName"			"BallPowerMeterFinalSectionContainer"
+			"xpos"			"c-85"
+			"ypos"			"16"
+			"zpos"			"3"
+			"wide"			"168"
+			"tall"			"18"
+			"visible"			"1"
+			"enabled"			"1"
+
+			"BallPowerMeterFinalSection"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"BallPowerMeterFinalSection"	
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"0"
+				"wide"			"168"
+				"tall"			"18"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"enabled"		"1"
+				"tabPosition"	"0"
+				"image"			"white"
+				"scaleImage"	"1"					
+			}
+		}
+
+
+		"BallPowerMeterFillContainer"
+		{
+			// This exists because the bar is filled by changing the width dynamically
+			// and if you change the width of the ImagePanel, it will stretch the image.
+			// But if you instead change the width of this container, the image is simply
+			// cut off instead of stretched.
+			// Also so that the bar is clipped nicely to the border.
+			"ControlName"		"EditablePanel"
+			"fieldName"			"BallPowerMeterFillContainer"
+			"xpos"			"c-85"
+			"ypos"			"16"
+			"zpos"			"4"
+			"wide"			"168"
+			"tall"			"18"
+			"visible"			"1"
+			"enabled"			"1"
+			
+			"BallPowerMeterFill"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"BallPowerMeterFill"	
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"0"
+				"wide"			"168"
+				"tall"			"18"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"enabled"		"1"
+				"tabPosition"	"0"
+				"image"			"white"
+				"scaleImage"	"1"					
+			}
+		}
+	}
+
+
 
 	"playericon0"
 	{
