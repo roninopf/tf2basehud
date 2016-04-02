@@ -628,6 +628,7 @@
 	{
 		"amount"		"short"
 		"entindex"		"byte"
+		"weapon_def_index"	"long"		// item def index of the healing weapon
 	}
 	
 	"player_stealsandvich"
@@ -1503,11 +1504,16 @@
 	{
 	}
 
-	"competitive_skillrating_update"
+	"competitive_stats_update"
 	{
 		"index"		"short"		// entindex of the player
-		"rating"	"short"		// skillrating
+		"rating"	"long"		// skillrating
 		"delta"		"short"		// skillrating adjustment
+		"kills_rank"	"byte"	// num std deviations above
+		"score_rank"	"byte"	//
+		"damage_rank"	"byte"	//
+		"healing_rank"	"byte"	//
+		"support_rank"	"byte"	//
 	}
 
 	"minigame_win"
@@ -1592,7 +1598,8 @@
 
 	"pass_score"
 	{
-		"player" "short"
+		"scorer" "short"
+		"assister" "short"
 		"points" "byte"
 	}
 
@@ -1741,5 +1748,30 @@
 		"pusher"	"byte"	// userid of the player who pushed
 		"distance"	"short"	// how far they pushed
 	}
+
+	"player_abandoned_match"
+	{
+		"game_over"	"bool"
+	}
+
+	"cl_drawline"
+	{
+		"player"	"byte"		// index of the player
+		"panel"		"byte"		// type of panel
+		"line"		"byte"		// type of line
+		"x"			"float"		
+		"y"			"float"		
+	}
+
+	"restart_timer_time"
+	{
+		"time"		"byte"		// How much time is left
+	}
+
+	"winlimit_changed"
+	{}
+
+	"winpanel_show_scores"
+	{}
 }
 
