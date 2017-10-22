@@ -12,35 +12,33 @@
 
 		"BlueScoreBG"
 		{
-			"ControlName"		"ImagePanel"
+			"ControlName"		"EditablePanel"
 			"fieldName"		"BlueScoreBG"
-			"xpos"			"0"
-			"ypos"			"10"
-			"wide"			"240"
-			"tall"			"50"
+			"xpos"			"50"
+			"ypos"			"15"
+			"wide"			"135"
+			"tall"			"40"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../hud/winpanel_blue_bg_team"
-			"image_lodef"	"../hud/winpanel_blue_bg_team_lodef"
-			"scaleImage"		"1"
+			
+			"border"		"TFFatLineBorderBlueBGMoreOpaque"
 		}
 		"RedScoreBG"
 		{
-			"ControlName"		"ImagePanel"
+			"ControlName"	"EditablePanel"
 			"fieldName"		"RedScoreBG"
-			"xpos"			"140"
-			"ypos"			"10"
-			"wide"			"240"
-			"tall"			"50"
+			"xpos"			"197"
+			"ypos"			"15"
+			"wide"			"135"
+			"tall"			"40"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../hud/winpanel_red_bg_team"
-			"image_lodef"	"../hud/winpanel_red_bg_team_lodef"
-			"scaleImage"		"1"
+
+			"border"		"TFFatLineBorderRedBGMoreOpaque"
 		}
 		"BlueTeamLabel"
 		{
@@ -51,6 +49,7 @@
 			"textAlignment"		"west"
 			"xpos"			"56"
 			"ypos"			"25"
+			"zpos"			"10"
 			"wide"			"100"
 			"tall"			"20"
 			"tall_lodef"	"24"
@@ -59,6 +58,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+			"fgcolor"		"TanLight"
 		}							
 		"BlueTeamScore"
 		{
@@ -136,6 +136,7 @@
 			"textAlignment"		"east"
 			"xpos"			"224"
 			"ypos"			"25"
+			"zpos"			"10"
 			"wide"			"100"
 			"tall"			"20"
 			"tall_lodef"	"24"
@@ -144,6 +145,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+			"fgcolor"		"TanLight"
 		}							
 		"RedTeamScore"
 		{
@@ -213,18 +215,21 @@
 			"bgcolor_override"	"117 107 94 255"
 		}
 	}
-	"WinPanelBG"
+
+	"WinPanelBGBorder"
 	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"WinPanelBG"
-		"xpos"			"-99"
-		"ypos"			"45"
+		"ControlName"		"EditablePanel"
+		"fieldName"		"WinPanelBGBorder"
+		"xpos"			"cs-0.5"
+		"ypos"			"70"
 		"zpos"			"0"
-		"wide"			"496"
-		"tall"			"226"
+		"wide"			"p0.94"
+		"tall"			"185"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"		"1"	
+		"border"		"TFFatLineBorderBlueBG"
+		"proportionaltoparent"	"1"
 	}
 	"WinningTeamLabel"
 	{	
@@ -313,15 +318,15 @@
 		"ypos"			"89"
 		"zpos"			"1"
 		"wide"			"268"
-		"tall"			"20"
+		"tall"			"30"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%WinReasonLabel%"
-		"textAlignment"		"Center"
 		"dulltext"		"0"
 		"brighttext"		"0"
+		"centerwrap"	"1"
 	}
 	"DetailsLabel"
 	{	
@@ -415,19 +420,19 @@
 		"fillcolor"		"250 234 201 255"
 		"PaintBackgroundType"	"0"
 	}
-	"Player1Medal"
+	"Player1Badge"
 	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"Player1Medal"
+		"ControlName"	"CTFBadgePanel"
+		"fieldName"		"Player1Badge"
 		"xpos"			"11"
 		"ypos"			"130"
 		"zpos"			"3"
 		"wide"			"25"
 		"tall"			"25"
+		"autoResize"	"0"
+		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			""
-		"scaleImage"		"1"	
 	}
 	"Player1Avatar"
 	{
@@ -498,19 +503,19 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 	}
-	"Player2Medal"
+	"Player2Badge"
 	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"Player2Medal"
+		"ControlName"	"CTFBadgePanel"
+		"fieldName"		"Player2Badge"
 		"xpos"			"11"
 		"ypos"			"152"
 		"zpos"			"3"
 		"wide"			"25"
 		"tall"			"25"
+		"autoResize"	"0"
+		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			""
-		"scaleImage"		"1"	
 	}
 	"Player2Avatar"
 	{
@@ -581,19 +586,19 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 	}
-	"Player3Medal"
+	"Player3Badge"
 	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"Player3Medal"
+		"ControlName"	"CTFBadgePanel"
+		"fieldName"		"Player3Badge"
 		"xpos"			"11"
 		"ypos"			"174"
 		"zpos"			"3"
 		"wide"			"25"
 		"tall"			"25"
+		"autoResize"	"0"
+		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			""
-		"scaleImage"		"1"	
 	}
 	"Player3Avatar"
 	{
@@ -721,19 +726,19 @@
 		"fillcolor"		"250 234 201 255"
 		"PaintBackgroundType"	"0"
 	}
-	"KillStreakPlayer1Medal"
+	"KillStreakPlayer1Badge"
 	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"KillStreakPlayer1Medal"
+		"ControlName"	"CTFBadgePanel"
+		"fieldName"		"KillStreakPlayer1Badge"
 		"xpos"			"11"
 		"ypos"			"211"
 		"zpos"			"3"
 		"wide"			"25"
 		"tall"			"25"
+		"autoResize"	"0"
+		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			""
-		"scaleImage"		"1"	
 	}
 	"KillStreakPlayer1Avatar"
 	{
