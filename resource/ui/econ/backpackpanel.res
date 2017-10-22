@@ -117,9 +117,6 @@
 			
 			"inset_eq_x"	"2"
 			"inset_eq_y"	"2"
-
-			"deferred_description"	"1"
-			"deferred_icon"			"1"
 			
 			"itemmodelpanel"
 			{
@@ -520,7 +517,7 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelApplyToolButton"
 		"xpos"			"c-288"
-		"ypos"			"323"
+		"ypos"			"337"
 		"zpos"			"20"
 		"wide"			"100"
 		"tall"			"25"
